@@ -1,0 +1,138 @@
+# Crustacean Monitoring System - Requirements
+# Optimized for NVIDIA Jetson Nano 2GB Developer Edition
+# Python 3.9.18 | JetPack 4.6.6
+
+# ==============================================================================
+# Core Deep Learning & Computer Vision
+# ==============================================================================
+
+# TensorFlow Lite Runtime for model inference (all TFLite models)
+# Note: Use tflite-runtime instead of full TensorFlow for reduced footprint
+tflite-runtime==2.13.0
+
+# NumPy for numerical operations and array processing
+numpy==2.0.2
+
+# OpenCV for image/video processing and camera capture
+# IMPORTANT: On Jetson Nano, use CUDA-enabled system OpenCV for best performance
+# Install via: sudo apt-get install python3-opencv
+# Do NOT use opencv-python from pip - it's CPU-only and much slower
+# opencv-python==4.9.0  # COMMENTED OUT - Use system OpenCV instead on Jetson Nano
+
+# Pillow for image manipulation (used in object detector)
+Pillow==10.0.0
+
+# ==============================================================================
+# System Monitoring & Hardware Access
+# ==============================================================================
+
+# psutil for CPU, RAM monitoring across all platforms
+psutil==7.0.0
+
+# jetson-stats for Jetson-specific hardware monitoring (CPU/GPU temp, etc.)
+# Only works on Jetson devices, gracefully handled if not available
+jetson-stats==4.3.2
+
+# ==============================================================================
+# Additional System Requirements (Install via apt-get)
+# ==============================================================================
+# The following are REQUIRED and must be installed via system package manager:
+#
+# 1. OpenCV with CUDA support (CRITICAL - see line 20 above):
+#    sudo apt-get install python3-opencv
+#
+# 2. GStreamer (for CSI camera capture):
+#    sudo apt-get install gstreamer1.0-tools gstreamer1.0-plugins-good \
+#                         gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly \
+#                         gstreamer1.0-libav libgstreamer1.0-dev \
+#                         libgstreamer-plugins-base1.0-dev
+#
+# 3. Git LFS (for model files):
+#    sudo apt-get install git-lfs
+#    git lfs install
+#
+# 4. Python development headers (if needed):
+#    sudo apt-get install python3.9-dev
+#
+# ==============================================================================
+
+# ==============================================================================
+# Installation Instructions for Jetson Nano 2GB
+# ==============================================================================
+#
+# 1. Update system packages:
+#    sudo apt-get update && sudo apt-get upgrade
+#
+# 2. Install CUDA-enabled OpenCV (CRITICAL for performance):
+#    sudo apt-get install python3-opencv
+#    
+#    This provides OpenCV with CUDA support, significantly faster than pip version.
+#    Verify CUDA is enabled:
+#    python3.9 -c "import cv2; print('CUDA devices:', cv2.cuda.getCudaEnabledDeviceCount())"
+#
+# 3. Install other system dependencies:
+#    sudo apt-get install python3.9 python3-pip python3.9-dev
+#    sudo apt-get install git-lfs
+#    sudo apt-get install gstreamer1.0-tools gstreamer1.0-plugins-good \
+#                         gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly \
+#                         gstreamer1.0-libav
+#
+# 4. Install Python packages from requirements.txt:
+#    pip3 install -r requirements.txt
+#
+#    OR for system-wide installation:
+#    sudo pip3 install -r requirements.txt
+#
+#    Note: opencv-python is commented out in requirements.txt because
+#    we're using the CUDA-enabled system version installed in step 2
+#
+# 5. Initialize Git LFS and pull model files:
+#    git lfs pull
+#
+# 6. Enable jtop service (for hardware monitoring):
+#    sudo systemctl restart jtop.service
+#
+# ==============================================================================
+
+# ==============================================================================
+# Verification
+# ==============================================================================
+# After installation, verify with:
+#
+# 1. Check all packages import correctly:
+#    python3.9 -c "import cv2, numpy, tflite_runtime, PIL, psutil; print('All core packages imported successfully')"
+#
+# 2. Verify OpenCV CUDA support (should show 1 or more devices):
+#    python3.9 -c "import cv2; print('CUDA devices:', cv2.cuda.getCudaEnabledDeviceCount())"
+#
+# 3. Check OpenCV version and build info:
+#    python3.9 -c "import cv2; print('OpenCV version:', cv2.__version__)"
+#
+# 4. Verify Jetson stats (may fail on non-Jetson hardware):
+#    python3.9 -c "from jtop import jtop; print('Jetson stats available')"
+#
+# ==============================================================================
+
+# ==============================================================================
+# Optional: Development & Debugging Tools (uncomment if needed)
+# ==============================================================================
+# matplotlib==3.5.3  # For visualization and debugging
+# jupyter==1.0.0     # For interactive development
+# pandas==1.5.3      # For data analysis of benchmark results
+# seaborn==0.12.2    # For plotting monitoring data
+
+# ==============================================================================
+# Notes
+# ==============================================================================
+# - This project uses TFLite models for efficient edge deployment
+# - CUDA-enabled OpenCV provides GPU acceleration for image preprocessing
+#   (resizing, color conversion, etc.) significantly improving performance
+# - Multi-threaded architecture requires adequate RAM (2GB minimum)
+# - Camera access requires sudo privileges (nvarguscamerasrc)
+# - Models are stored with Git LFS (ensure git lfs pull is run)
+# - Compatible with Python 3.9.18 (as tested on Jetson Nano 2GB)
+# - For Raspberry Pi deployment:
+#   * Use pip opencv-python (uncomment in requirements.txt)
+#   * jtop will not be available but code handles this gracefully
+# ==============================================================================
+
