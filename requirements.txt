@@ -33,6 +33,9 @@ psutil==7.0.0
 # Only works on Jetson devices, gracefully handled if not available
 jetson-stats==4.3.2
 
+# PyYAML for configuration file parsing
+PyYAML==6.0.1
+
 # ==============================================================================
 # Additional System Requirements (Install via apt-get)
 # ==============================================================================

@@ -1,0 +1,158 @@
+# Crustacean Monitoring System - Default Configuration
+# This file contains all configurable parameters for the system
+
+# Model Configurations
+models:
+  # Binary Classifier - Detects crustacean presence in frames
+  binary_classifier:
+    path: "processing/binary_classifier/save/DS1_A_200_128.tflite"
+    input_width: 320
+    input_height: 180
+    batch_size: 1
+    # Smoothing parameters for noise reduction
+    smoothing_gamma: 20
+    rectify_theta_1: 0.01
+    rectify_theta_2: 0.5
+    smoothing_window_1: 20
+    smoothing_window_2: 10
+  
+  # Frame Selector - Selects highest quality frames from segments
+  frame_selector:
+    top_model_path: "processing/frame_selector/top_con_norm_bal_mse_1000.tflite"
+    bottom_model_path: "processing/frame_selector/bottom_con_norm_bal_mse_1000.tflite"
+    input_width: 320
+    input_height: 180
+  
+  # Object Detector - Localizes crustaceans and extracts ROI
+  object_detector:
+    path: "processing/object_detector/best-expanded.tflite"
+    input_size: 640
+    confidence_threshold: 0.75
+    # Fixed crop dimensions for ROI extraction
+    fixed_crop_width: 539
+    fixed_crop_height: 561
+    # Padding dimensions for preprocessing
+    pad_width: 1280
+    pad_height: 1280
+  
+  # Keypoint Detector - Identifies anatomical landmarks
+  keypoint_detector:
+    path: "processing/keypoint_detector/models/32_4000_197.07_14.11.04.512680.tflite"
+    num_keypoints: 7  # 7 anatomical points (14 coordinates)
+
+# Real-time Processing Configuration
+realtime:
+  # Motion detection threshold (percentage of pixels changed)
+  motion_detection_threshold: 15
+  # Cooldown period between detections (seconds)
+  detection_cooldown: 3
+  # Number of frames to collect when motion detected
+  frames_to_collect: 30
+  # Process every N frames (frame sampling interval)
+  process_interval: 30
+  # Maximum concurrent save threads
+  max_save_threads: 2
+  # Queue sizes for thread communication
+  analysis_queue_size: 1
+  detection_queue_size: 1
+  result_queue_size: 1
+
+# Camera Configuration
+camera:
+  # Camera type: 'csi', 'usb', or 'rtsp'
+  type: "csi"
+  # Resolution
+  width: 1280
+  height: 720
+  # Frame rate
+  framerate: 45
+  # Rotation angle (0, 90, 180, 270)
+  rotation: 180
+  # Device path (for USB cameras)
+  device: "/dev/video0"
+  # GStreamer specific settings
+  gstreamer:
+    drop_frames: true
+    max_buffers: 2
+    sync: false
+
+# Output Paths
+output:
+  # Directory for real-time detection results
+  detections_dir: "realtime_frames"
+  # Directory for benchmark/monitoring results
+  benchmark_dir: "benchmark"
+  # Temporary directory for extracted frames
+  extracted_frames_dir: "processing/extracted_frames"
+  # Log file directory
+  log_dir: "logs"
+  # Completed files tracking (for offline mode)
+  completed_files_log: "CompletedFiles.txt"
+
+# Logging Configuration
+logging:
+  # Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: "INFO"
+  # Enable console output
+  console: true
+  # Enable file output
+  file: true
+  # Log file name pattern
+  filename: "crustacean_monitoring.log"
+  # Maximum log file size before rotation (bytes)
+  max_bytes: 10485760  # 10MB
+  # Number of backup log files to keep
+  backup_count: 5
+  # Log format
+  format: "%(asctime)s - %(threadName)s - %(name)s - %(levelname)s - %(message)s"
+  # Date format
+  date_format: "%Y-%m-%d %H:%M:%S"
+
+# Monitoring Configuration
+monitoring:
+  # Monitoring interval (seconds)
+  interval: 2
+  # Enable hardware monitoring
+  enabled: true
+  # Auto-detect hardware platform
+  auto_detect: true
+  # Metrics to collect (platform-dependent)
+  metrics:
+    - cpu_percent
+    - cpu_temp
+    - gpu_temp
+    - ram_percent
+    - power_used
+
+# Performance Profiling
+profiling:
+  # Enable performance profiling
+  enabled: false
+  # Output file for profiling results
+  output_file: "profile_results.prof"
+  # Print summary after run
+  print_summary: true
+
+# Offline Pipeline Configuration
+offline:
+  # Video directory to process
+  video_dir: "processing/video"
+  # Number of runs (for benchmarking)
+  runs: 1
+  # Process videos in parallel (experimental)
+  parallel: false
+
+# Advanced Settings
+advanced:
+  # Force garbage collection after each video
+  force_gc: true
+  # Maximum consecutive errors before shutdown
+  max_consecutive_errors: 10
+  # Camera reconnection attempts
+  camera_reconnect_attempts: 3
+  # Camera reconnection delay (seconds)
+  camera_reconnect_delay: 2
+  # Thread join timeout (seconds)
+  thread_join_timeout: 5
+  # Executor shutdown timeout (seconds)
+  executor_shutdown_timeout: 10
