@@ -87,3 +87,35 @@
 2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
 2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
 2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:51:46 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:51:46 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:51:46 - MainThread - MockModel - INFO - Mock model loading...
+2025-11-13 09:51:46 - MainThread - MockModel - INFO - Mock model loaded
+2025-11-13 09:51:46 - MainThread - MockModel - INFO - MockModel unloaded
+2025-11-13 09:51:46 - MainThread - MockModel - INFO - Mock model loading...
+2025-11-13 09:51:46 - MainThread - MockModel - INFO - Mock model loaded
+2025-11-13 09:51:46 - MainThread - MockModel - INFO - Mock model loading...
+2025-11-13 09:51:46 - MainThread - MockModel - INFO - Mock model loaded
+2025-11-13 09:51:46 - MainThread - MockModel - INFO - MockModel unloaded
+2025-11-13 09:53:44 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:53:44 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:53:44 - MainThread - MockModel - INFO - MockModel unloaded
+2025-11-13 09:53:44 - MainThread - MockModel - INFO - MockModel unloaded
+2025-11-13 09:53:44 - MainThread - MockModel - INFO - MockModel unloaded
+2025-11-13 09:53:44 - MainThread - MockModel - INFO - MockModel unloaded
+2025-11-13 09:53:44 - MainThread - MockModel - INFO - MockModel unloaded
+2025-11-13 09:53:44 - MainThread - MockModel - INFO - MockModel unloaded
+2025-11-13 09:53:44 - MainThread - MockModel - INFO - MockModel unloaded
+2025-11-13 09:53:44 - MainThread - MockModel - INFO - MockModel unloaded
+2025-11-13 09:53:44 - MainThread - MockModel - INFO - MockModel unloaded
+2025-11-13 09:54:18 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:54:18 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:54:18 - MainThread - MockModel - INFO - MockModel unloaded
+2025-11-13 09:54:18 - MainThread - MockModel - INFO - MockModel unloaded
+2025-11-13 09:54:18 - MainThread - MockModel - INFO - MockModel unloaded
+2025-11-13 09:54:18 - MainThread - MockModel - INFO - MockModel unloaded
+2025-11-13 09:54:18 - MainThread - MockModel - INFO - MockModel unloaded
+2025-11-13 09:54:18 - MainThread - MockModel - INFO - MockModel unloaded
+2025-11-13 09:54:18 - MainThread - MockModel - INFO - MockModel unloaded
+2025-11-13 09:54:18 - MainThread - MockModel - INFO - MockModel unloaded
+2025-11-13 09:54:18 - MainThread - MockModel - INFO - MockModel unloaded

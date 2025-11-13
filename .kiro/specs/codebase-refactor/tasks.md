@@ -69,8 +69,8 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
   - Add docstrings explaining when each exception is raised
   - _Requirements: 5.1, 5.2, 5.3_
 
-- [ ] 5. Implement base model interface
-  - [ ] 5.1 Create BaseModel abstract class
+- [x] 5. Implement base model interface
+  - [x] 5.1 Create BaseModel abstract class
     - Write `crustacean/models/base_model.py`
     - Define `__init__()` accepting config and preload flag
     - Define abstract `load()` method
@@ -82,7 +82,7 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
     - Add comprehensive docstrings with type hints
     - _Requirements: 3.1, 3.2, 3.3, 3.4, 3.5, 12.1, 12.2_
   
-  - [ ] 5.2 Write BaseModel tests
+  - [x] 5.2 Write BaseModel tests
     - Create mock model extending BaseModel
     - Test initialization with preload=True and False
     - Test predict() workflow
