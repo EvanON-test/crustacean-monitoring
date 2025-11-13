@@ -40,8 +40,8 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
     - Test invalid YAML handling
     - _Requirements: 9.3_
 
-- [ ] 3. Implement logging system
-  - [ ] 3.1 Create logging setup module
+- [x] 3. Implement logging system
+  - [x] 3.1 Create logging setup module
     - Write `crustacean/utils/logging_setup.py`
     - Implement `setup_logging()` function
     - Configure console and file handlers
@@ -50,7 +50,7 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
     - Implement `get_logger()` helper function
     - _Requirements: 1.1, 1.2, 1.3, 1.4_
   
-  - [ ] 3.2 Write logging tests
+  - [x] 3.2 Write logging tests
     - Test logger creation
     - Test log output format
     - Test file rotation

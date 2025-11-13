@@ -1,0 +1,89 @@
+2025-11-13 08:59:01 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 08:59:01 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 08:59:01 - MainThread - test_module - INFO - This is an info message
+2025-11-13 08:59:01 - MainThread - test_module - WARNING - This is a warning message
+2025-11-13 08:59:01 - MainThread - test_module - ERROR - This is an error message
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:01:34 - MainThread - test - INFO - Test message
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Log level changed to DEBUG
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:01:34 - MainThread - test - INFO - Test message
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:01:34 - MainThread - test.module - INFO - Test message
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:01:34 - MainThread - test - WARNING - Warning message
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:01:34 - MainThread - test - INFO - Info message
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:01:34 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:02:56 - MainThread - test - INFO - Test message
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Log level changed to DEBUG
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-11-13 09:02:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
