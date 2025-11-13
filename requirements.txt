@@ -1,6 +1,6 @@
-# Crustacean Monitoring System - Requirements
-# Optimized for NVIDIA Jetson Nano 2GB Developer Edition
-# Python 3.9.18 | JetPack 4.6.6
+# Crustacean Monitoring System - Core Requirements
+# Minimum dependencies for running the system
+# Python 3.9+ required
 
 # ==============================================================================
 # Core Deep Learning & Computer Vision
@@ -16,11 +16,18 @@ numpy==2.0.2
 # OpenCV for image/video processing and camera capture
 # IMPORTANT: On Jetson Nano, use CUDA-enabled system OpenCV for best performance
 # Install via: sudo apt-get install python3-opencv
-# Do NOT use opencv-python from pip - it's CPU-only and much slower
-# opencv-python==4.9.0  # COMMENTED OUT - Use system OpenCV instead on Jetson Nano
+# Do NOT use opencv-python from pip on Jetson - it's CPU-only and much slower
+opencv-python==4.9.0  # For non-Jetson platforms
 
 # Pillow for image manipulation (used in object detector)
 Pillow==10.0.0
+
+# ==============================================================================
+# Configuration & Utilities
+# ==============================================================================
+
+# PyYAML for configuration file parsing
+PyYAML==6.0.1
 
 # ==============================================================================
 # System Monitoring & Hardware Access
@@ -28,13 +35,6 @@ Pillow==10.0.0
 
 # psutil for CPU, RAM monitoring across all platforms
 psutil==7.0.0
-
-# jetson-stats for Jetson-specific hardware monitoring (CPU/GPU temp, etc.)
-# Only works on Jetson devices, gracefully handled if not available
-jetson-stats==4.3.2
-
-# PyYAML for configuration file parsing
-PyYAML==6.0.1
 
 # ==============================================================================
 # Additional System Requirements (Install via apt-get)
@@ -125,17 +125,32 @@ PyYAML==6.0.1
 # seaborn==0.12.2    # For plotting monitoring data
 
 # ==============================================================================
+# Additional Requirement Files
+# ==============================================================================
+# - requirements-dev.txt: Development dependencies (pytest, black, mypy, etc.)
+# - requirements-jetson.txt: Jetson-specific dependencies (jetson-stats)
+#
+# Install all dependencies:
+#   pip install -r requirements.txt -r requirements-dev.txt
+#
+# For Jetson Nano:
+#   pip install -r requirements.txt -r requirements-jetson.txt
+#
+# ==============================================================================
+# Installation Notes
+# ==============================================================================
+# 1. Python 3.9+ required
+# 2. For Jetson Nano: Use system OpenCV (sudo apt-get install python3-opencv)
+#    Comment out opencv-python in this file
+# 3. Models stored with Git LFS: Run 'git lfs pull' after cloning
+# 4. Camera access requires sudo privileges on Jetson
+# 5. See requirements-jetson.txt for detailed Jetson setup instructions
+# ==============================================================================
 # Notes
 # ==============================================================================
 # - This project uses TFLite models for efficient edge deployment
 # - CUDA-enabled OpenCV provides GPU acceleration for image preprocessing
-#   (resizing, color conversion, etc.) significantly improving performance
 # - Multi-threaded architecture requires adequate RAM (2GB minimum)
-# - Camera access requires sudo privileges (nvarguscamerasrc)
-# - Models are stored with Git LFS (ensure git lfs pull is run)
 # - Compatible with Python 3.9.18 (as tested on Jetson Nano 2GB)
-# - For Raspberry Pi deployment:
-#   * Use pip opencv-python (uncomment in requirements.txt)
-#   * jtop will not be available but code handles this gracefully
 # ==============================================================================
 

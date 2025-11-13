@@ -90,7 +90,7 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
     - Test error handling for predict() without load()
     - _Requirements: 9.1_
 
-- [ ] 6. Create dependency files
+- [x] 6. Create dependency files
   - Create `requirements.txt` with pinned versions (tflite-runtime, numpy, opencv-python, Pillow, psutil, PyYAML)
   - Create `requirements-dev.txt` (pytest, pytest-cov, black, flake8, mypy)
   - Create `requirements-jetson.txt` (jetson-stats)

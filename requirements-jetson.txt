@@ -1,0 +1,78 @@
+# Crustacean Monitoring System - Jetson-Specific Requirements
+# Additional dependencies specific to NVIDIA Jetson devices
+# Python 3.9.18 | JetPack 4.6.6
+
+# ==============================================================================
+# Jetson Hardware Monitoring
+# ==============================================================================
+
+# jetson-stats - Jetson-specific hardware monitoring (CPU/GPU temp, power, etc.)
+# Provides jtop utility for accessing Jetson hardware metrics
+jetson-stats==4.3.2
+
+# ==============================================================================
+# Installation Instructions for Jetson Nano 2GB
+# ==============================================================================
+#
+# 1. Install system dependencies first:
+#    sudo apt-get update && sudo apt-get upgrade
+#    sudo apt-get install python3.9 python3-pip python3.9-dev
+#
+# 2. Install CUDA-enabled OpenCV (CRITICAL for performance):
+#    sudo apt-get install python3-opencv
+#    
+#    This provides OpenCV with CUDA support, significantly faster than pip version.
+#    Verify CUDA is enabled:
+#    python3.9 -c "import cv2; print('CUDA devices:', cv2.cuda.getCudaEnabledDeviceCount())"
+#
+# 3. Install GStreamer (for CSI camera capture):
+#    sudo apt-get install gstreamer1.0-tools gstreamer1.0-plugins-good \
+#                         gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly \
+#                         gstreamer1.0-libav libgstreamer1.0-dev \
+#                         libgstreamer-plugins-base1.0-dev
+#
+# 4. Install Git LFS (for model files):
+#    sudo apt-get install git-lfs
+#    git lfs install
+#    git lfs pull
+#
+# 5. Install Python packages:
+#    pip3 install -r requirements.txt
+#    pip3 install -r requirements-jetson.txt
+#
+#    OR for system-wide installation:
+#    sudo pip3 install -r requirements.txt -r requirements-jetson.txt
+#
+# 6. Enable jtop service (for hardware monitoring):
+#    sudo systemctl restart jtop.service
+#
+# ==============================================================================
+# Verification
+# ==============================================================================
+# After installation, verify with:
+#
+# 1. Check all packages import correctly:
+#    python3.9 -c "import cv2, numpy, tflite_runtime, PIL, psutil, yaml; print('All packages OK')"
+#
+# 2. Verify OpenCV CUDA support (should show 1 or more devices):
+#    python3.9 -c "import cv2; print('CUDA devices:', cv2.cuda.getCudaEnabledDeviceCount())"
+#
+# 3. Check OpenCV version:
+#    python3.9 -c "import cv2; print('OpenCV version:', cv2.__version__)"
+#
+# 4. Verify Jetson stats:
+#    python3.9 -c "from jtop import jtop; print('Jetson stats available')"
+#
+# 5. Test camera (if CSI camera connected):
+#    gst-launch-1.0 nvarguscamerasrc ! nvvidconv ! 'video/x-raw, format=BGRx' ! videoconvert ! xvimagesink
+#
+# ==============================================================================
+# Performance Notes
+# ==============================================================================
+# - CUDA-enabled OpenCV provides GPU acceleration for image preprocessing
+#   (resizing, color conversion, etc.) significantly improving performance
+# - Multi-threaded architecture requires adequate RAM (2GB minimum)
+# - Camera access requires sudo privileges (nvarguscamerasrc)
+# - Models are stored with Git LFS (ensure git lfs pull is run)
+# - For optimal performance, close unnecessary applications before running
+# ==============================================================================
