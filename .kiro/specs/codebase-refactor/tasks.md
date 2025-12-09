@@ -99,8 +99,8 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
 
 ## Phase 2: Model Refactor (Week 2)
 
-- [ ] 7. Implement BinaryClassifier model
-  - [ ] 7.1 Create BinaryClassifier class
+- [-] 7. Implement BinaryClassifier model
+  - [x] 7.1 Create BinaryClassifier class
     - Write `crustacean/models/binary_classifier.py`
     - Extend BaseModel
     - Implement `load()` to load TFLite model
@@ -110,15 +110,15 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
     - Add logging at key points
     - _Requirements: 3.1, 3.2, 3.3, 3.4, 3.5_
   
-  - [ ] 7.2 Write BinaryClassifier tests
+  - [x] 7.2 Write BinaryClassifier tests
     - Test model loading
     - Test preprocessing with mock video
     - Test smoothing and rectification
     - Test full predict() pipeline
     - _Requirements: 9.1_
 
-- [ ] 8. Implement FrameSelector model
-  - [ ] 8.1 Create FrameSelector class
+- [x] 8. Implement FrameSelector model
+  - [x] 8.1 Create FrameSelector class
     - Write `crustacean/models/frame_selector.py`
     - Extend BaseModel
     - Implement `load()` to load both top and bottom TFLite models
@@ -129,15 +129,15 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
     - Add logging for segment processing
     - _Requirements: 3.1, 3.2, 3.3, 3.4, 3.5_
   
-  - [ ] 8.2 Write FrameSelector tests
+  - [x] 8.2 Write FrameSelector tests
     - Test loading both models
     - Test frame quality prediction
     - Test contig detection logic
     - Test best frame selection
     - _Requirements: 9.1_
 
-- [ ] 9. Implement ObjectDetector model
-  - [ ] 9.1 Create ObjectDetector class
+- [x] 9. Implement ObjectDetector model
+  - [x] 9.1 Create ObjectDetector class
     - Write `crustacean/models/object_detector.py`
     - Extend BaseModel
     - Implement `load()` to load TFLite model
@@ -148,7 +148,7 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
     - Add confidence threshold checking
     - _Requirements: 3.1, 3.2, 3.3, 3.4, 3.5_
   
-  - [ ] 9.2 Write ObjectDetector tests
+  - [x] 9.2 Write ObjectDetector tests
     - Test model loading
     - Test preprocessing (padding, resizing)
     - Test NMS application

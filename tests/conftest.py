@@ -4,6 +4,15 @@ Pytest configuration and shared fixtures for Crustacean Monitoring System tests.
 This module provides common fixtures and configuration for all tests.
 """
 
+import sys
+from unittest.mock import MagicMock
+
+# Mock tflite_runtime before any imports that use it
+# This allows tests to run on platforms where tflite_runtime is not available
+mock_tflite = MagicMock()
+sys.modules['tflite_runtime'] = mock_tflite
+sys.modules['tflite_runtime.interpreter'] = mock_tflite
+
 import pytest
 import tempfile
 import shutil
