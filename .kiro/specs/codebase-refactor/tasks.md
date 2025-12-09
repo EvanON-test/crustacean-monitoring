@@ -182,7 +182,7 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
 
 ## Phase 3: Pipeline Refactor (Week 3)
 
-- [ ] 12. Implement base Pipeline class
+- [x] 12. Implement base Pipeline class
   - Write `crustacean/core/pipeline.py`
   - Create abstract Pipeline class
   - Implement `__init__()` accepting config
