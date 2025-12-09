@@ -272,8 +272,8 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
     - Add comprehensive error handling
     - _Requirements: 6.1, 6.2, 6.3, 6.4, 6.5_
 
-- [ ] 16. Implement RealtimePipeline
-  - [ ] 16.1 Create unified RealtimePipeline class
+- [x] 16. Implement RealtimePipeline
+  - [x] 16.1 Create unified RealtimePipeline class
     - Write `crustacean/core/realtime_pipeline.py`
     - Extend Pipeline base class
     - Implement `__init__()` accepting config and display_mode flag
@@ -289,7 +289,7 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
     - Add cooldown mechanism to prevent duplicate detections
     - _Requirements: 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 6.1, 6.2, 6.3, 6.4, 15.1, 15.2, 15.3, 15.4, 15.5_
   
-  - [ ] 16.2 Implement graceful shutdown
+  - [x] 16.2 Implement graceful shutdown
     - Handle KeyboardInterrupt in main loop
     - Stop all threads with timeout
     - Wait for executor to complete saves
@@ -298,7 +298,7 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
     - Log shutdown summary
     - _Requirements: 15.1, 15.2, 15.3, 15.4, 15.5, 15.6_
   
-  - [ ] 16.3 Write RealtimePipeline integration test
+  - [x] 16.3 Write RealtimePipeline integration test
     - Test initialization
     - Test motion detection
     - Test frame collection
@@ -309,7 +309,7 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
 ## Phase 4: Monitoring & Polish (Week 4)
 
 - [ ] 17. Implement monitoring system
-  - [ ] 17.1 Create hardware detector
+  - [x] 17.1 Create hardware detector
     - Write `crustacean/monitoring/hardware_detector.py`
     - Implement `detect_hardware()` function
     - Check platform.machine() and system files
@@ -317,7 +317,7 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
     - Implement `create_monitor()` factory function
     - _Requirements: 11.3_
   
-  - [ ] 17.2 Create BaseMonitor class
+  - [x] 17.2 Create BaseMonitor class
     - Write `crustacean/monitoring/base_monitor.py`
     - Extend Thread
     - Implement `__init__()` accepting config and output file
@@ -327,7 +327,7 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
     - Implement `stop()` method
     - _Requirements: 11.1, 11.2, 11.4, 11.5_
   
-  - [ ] 17.3 Create JetsonMonitor class
+  - [x] 17.3 Create JetsonMonitor class
     - Write `crustacean/monitoring/jetson_monitor.py`
     - Extend BaseMonitor
     - Implement `collect_metrics()` using jtop
@@ -335,22 +335,22 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
     - Handle jtop initialization and cleanup
     - _Requirements: 11.1, 11.2, 11.4_
   
-  - [ ] 17.4 Create RaspberryPiMonitor class
+  - [x] 17.4 Create RaspberryPiMonitor class
     - Write `crustacean/monitoring/pi_monitor.py`
     - Extend BaseMonitor
     - Implement `collect_metrics()` using gpiozero
     - Collect CPU temp from CPUTemperature
     - _Requirements: 11.1, 11.2, 11.4_
   
-  - [ ] 17.5 Create GenericMonitor class
+  - [x] 17.5 Create GenericMonitor class
     - Write `crustacean/monitoring/generic_monitor.py`
     - Extend BaseMonitor
     - Implement `collect_metrics()` using only psutil
     - Provide fallback for platforms without specific support
     - _Requirements: 11.1, 11.2, 11.5_
 
-- [ ] 18. Implement profiling tools
-  - [ ] 18.1 Create PerformanceProfiler class
+- [x] 18. Implement profiling tools
+  - [x] 18.1 Create PerformanceProfiler class
     - Write `crustacean/utils/profiling.py`
     - Implement `__init__()` to initialize timing storage
     - Implement `profile_section()` context manager
@@ -358,14 +358,14 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
     - Implement `print_summary()` for formatted output
     - _Requirements: 10.1, 10.2, 10.3, 10.4, 10.5_
   
-  - [ ] 18.2 Integrate profiling into pipelines
+  - [x] 18.2 Integrate profiling into pipelines
     - Add optional profiler parameter to Pipeline classes
     - Wrap each stage with profiler.profile_section()
     - Print summary at end of run
     - _Requirements: 10.1, 10.2, 10.3, 10.4_
 
-- [ ] 19. Create entry point scripts
-  - [ ] 19.1 Create offline pipeline script
+- [x] 19. Create entry point scripts
+  - [x] 19.1 Create offline pipeline script
     - Write `scripts/run_offline.py`
     - Parse command-line arguments (--config, --video-dir, --log-level, --profile)
     - Load configuration
@@ -374,7 +374,7 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
     - Handle errors and exit codes
     - _Requirements: 14.1, 14.2, 14.3, 14.4_
   
-  - [ ] 19.2 Create real-time pipeline script
+  - [x] 19.2 Create real-time pipeline script
     - Write `scripts/run_realtime.py`
     - Parse command-line arguments (--config, --display, --log-level, --profile)
     - Load configuration
@@ -383,7 +383,7 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
     - Handle errors and exit codes
     - _Requirements: 14.1, 14.2, 14.3, 14.4_
   
-  - [ ] 19.3 Create monitoring script
+  - [x] 19.3 Create monitoring script
     - Write `scripts/run_monitoring.py`
     - Parse command-line arguments (--config, --video-dir, --output, --log-level)
     - Load configuration

@@ -57,10 +57,9 @@ class OfflinePipeline(Pipeline):
             video_dir: Directory containing video files to process
             profiler: Optional PerformanceProfiler instance
         """
-        super().__init__(config)
+        super().__init__(config, profiler=profiler)
         
         self.video_dir = Path(video_dir)
-        self.profiler = profiler
         
         # Get paths from config with defaults
         self.completed_files_path = Path(
@@ -112,6 +111,10 @@ class OfflinePipeline(Pipeline):
                 self._mark_completed(video_path.name)
                 
             self.logger.info("Offline pipeline completed successfully")
+            
+            # Print profiling summary if enabled
+            if self.profiler:
+                self.profiler.print_summary()
             
         finally:
             self.cleanup()

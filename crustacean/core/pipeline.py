@@ -7,11 +7,14 @@ and logging initialization.
 """
 
 from abc import ABC, abstractmethod
-from typing import Dict, Optional, Any
+from typing import Dict, Optional, Any, TYPE_CHECKING
 
 from crustacean.utils.config import Config
 from crustacean.utils.logging_setup import get_logger
 from crustacean.models.base_model import BaseModel
+
+if TYPE_CHECKING:
+    from crustacean.utils.profiling import PerformanceProfiler
 
 
 class Pipeline(ABC):
@@ -38,18 +41,21 @@ class Pipeline(ABC):
         ...             self.cleanup()
     """
     
-    def __init__(self, config: Config):
+    def __init__(self, config: Config, profiler: Optional['PerformanceProfiler'] = None):
         """
         Initialize the pipeline with configuration.
         
         Args:
             config: Configuration object with pipeline settings
+            profiler: Optional PerformanceProfiler for timing measurements
             
         Example:
             >>> config = Config.load()
-            >>> pipeline = OfflinePipeline(config, video_dir='./videos')
+            >>> profiler = PerformanceProfiler("offline")
+            >>> pipeline = OfflinePipeline(config, video_dir='./videos', profiler=profiler)
         """
         self.config = config
+        self.profiler = profiler
         self.logger = get_logger(self.__class__.__name__)
         self.models: Dict[str, BaseModel] = {}
         
