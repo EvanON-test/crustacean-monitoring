@@ -156,8 +156,8 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
     - Test confidence thresholding
     - _Requirements: 9.1_
 
-- [ ] 10. Implement KeypointDetector model
-  - [ ] 10.1 Create KeypointDetector class
+- [x] 10. Implement KeypointDetector model
+  - [x] 10.1 Create KeypointDetector class
     - Write `crustacean/models/keypoint_detector.py`
     - Extend BaseModel
     - Implement `load()` to load TFLite model
@@ -167,14 +167,14 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
     - Return array of shape (n_frames, 14)
     - _Requirements: 3.1, 3.2, 3.3, 3.4, 3.5_
   
-  - [ ] 10.2 Write KeypointDetector tests
+  - [x] 10.2 Write KeypointDetector tests
     - Test model loading
     - Test single frame processing
     - Test batch processing
     - Test output shape validation
     - _Requirements: 9.1_
 
-- [ ] 11. Create model package exports
+- [x] 11. Create model package exports
   - Update `crustacean/models/__init__.py`
   - Export all model classes
   - Add package-level docstring
