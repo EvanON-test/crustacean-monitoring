@@ -192,8 +192,8 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
   - Add logging initialization
   - _Requirements: 4.1, 4.2, 4.3, 4.4, 4.5, 4.6_
 
-- [ ] 13. Implement OfflinePipeline
-  - [ ] 13.1 Create OfflinePipeline class
+- [x] 13. Implement OfflinePipeline
+  - [x] 13.1 Create OfflinePipeline class
     - Write `crustacean/core/offline_pipeline.py`
     - Extend Pipeline base class
     - Implement `__init__()` accepting config and video directory
@@ -205,15 +205,15 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
     - Integrate profiling support (optional)
     - _Requirements: 4.1, 4.2, 4.3, 4.4, 4.5, 4.6, 10.2, 10.3, 10.4_
   
-  - [ ] 13.2 Write OfflinePipeline integration test
+  - [x] 13.2 Write OfflinePipeline integration test
     - Test processing test video end-to-end
     - Verify output files created
     - Verify keypoint CSV format
     - Test completed files tracking
     - _Requirements: 9.2_
 
-- [ ] 14. Implement camera abstraction
-  - [ ] 14.1 Create BaseCamera interface
+- [x] 14. Implement camera abstraction
+  - [x] 14.1 Create BaseCamera interface
     - Write `crustacean/camera/base_camera.py`
     - Define abstract `open()` method
     - Define abstract `read()` method
@@ -221,7 +221,7 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
     - Define abstract `is_opened()` method
     - _Requirements: 8.3_
   
-  - [ ] 14.2 Create GStreamerCamera implementation
+  - [x] 14.2 Create GStreamerCamera implementation
     - Write `crustacean/camera/gstreamer_camera.py`
     - Extend BaseCamera
     - Implement `_build_pipeline()` from config parameters
@@ -231,14 +231,14 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
     - Add error handling for camera initialization
     - _Requirements: 8.1, 8.2, 8.3, 8.4, 8.5_
   
-  - [ ] 14.3 Create camera factory function
+  - [x] 14.3 Create camera factory function
     - Add `create_camera()` function in `crustacean/camera/__init__.py`
     - Auto-select camera type based on config
     - Return appropriate camera instance
     - _Requirements: 8.3_
 
-- [ ] 15. Implement thread classes
-  - [ ] 15.1 Create AnalysisThread
+- [x] 15. Implement thread classes
+  - [x] 15.1 Create AnalysisThread
     - Write `crustacean/threads/analysis_thread.py`
     - Extend Thread
     - Implement `__init__()` accepting queues and models
@@ -249,7 +249,7 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
     - Implement `stop()` method
     - _Requirements: 5.4, 5.5, 6.1, 6.2_
   
-  - [ ] 15.2 Create DetectionThread
+  - [x] 15.2 Create DetectionThread
     - Write `crustacean/threads/detection_thread.py`
     - Extend Thread
     - Implement `__init__()` accepting queues and OD model
@@ -259,7 +259,7 @@ This implementation plan breaks down the comprehensive refactor into discrete, m
     - Implement `stop()` method
     - _Requirements: 5.4, 5.5, 6.1, 6.2_
   
-  - [ ] 15.3 Create SaveThread
+  - [x] 15.3 Create SaveThread
     - Write `crustacean/threads/save_thread.py`
     - Create `save_detection()` function (not a thread class)
     - Accept frame, roi, confidence, frame_number, config

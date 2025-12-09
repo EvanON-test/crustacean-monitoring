@@ -119,3 +119,1465 @@
 2025-11-13 09:54:18 - MainThread - MockModel - INFO - MockModel unloaded
 2025-11-13 09:54:18 - MainThread - MockModel - INFO - MockModel unloaded
 2025-11-13 09:54:18 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 09:49:16 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 09:49:16 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 09:49:16 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 09:49:16 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 09:49:16 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 09:49:16 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 09:49:16 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 09:49:16 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 09:49:16 - MainThread - KeypointDetector - INFO - KeypointDetector unloaded
+2025-12-09 09:49:16 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 09:49:16 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 09:49:17 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 09:49:17 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 09:49:17 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 09:49:17 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 09:49:17 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 09:49:17 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 09:49:17 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 09:49:17 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 09:49:17 - MainThread - KeypointDetector - INFO - KeypointDetector unloaded
+2025-12-09 09:49:17 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 09:49:17 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 09:49:17 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 09:49:17 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 09:50:17 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 09:50:17 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 09:50:17 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 09:50:17 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 09:50:17 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 09:50:17 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 09:50:17 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 09:50:17 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 09:50:17 - MainThread - KeypointDetector - INFO - KeypointDetector unloaded
+2025-12-09 09:50:17 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 09:50:17 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 09:50:17 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 09:50:17 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 09:50:17 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 09:50:17 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 09:50:17 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 09:50:17 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 09:50:17 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 09:50:17 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 09:50:17 - MainThread - KeypointDetector - INFO - KeypointDetector unloaded
+2025-12-09 09:50:17 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 09:50:17 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 09:50:17 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 09:50:17 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 09:50:17 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 09:50:17 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 09:50:17 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 09:50:17 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 09:50:17 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 09:50:17 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 09:50:17 - MainThread - ObjectDetector - INFO - ObjectDetector unloaded
+2025-12-09 09:50:17 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 09:50:17 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 09:50:17 - MainThread - ObjectDetector - WARNING - Low confidence detection: 0.720
+2025-12-09 09:50:17 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 09:50:17 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 09:50:17 - MainThread - ObjectDetector - WARNING - Low confidence detection: 0.720
+2025-12-09 09:50:17 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 09:50:17 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 09:50:17 - MainThread - ObjectDetector - WARNING - Low confidence detection: 0.720
+2025-12-09 09:50:18 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 09:50:18 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 09:50:18 - MainThread - ObjectDetector - WARNING - Low confidence detection: 0.720
+2025-12-09 09:50:18 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 09:50:18 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 09:50:18 - MainThread - ObjectDetector - WARNING - No detections found in frame
+2025-12-09 09:50:18 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 09:50:18 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 09:50:18 - MainThread - ObjectDetector - INFO - ObjectDetector unloaded
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Loading top model from test/top.tflite
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - FrameSelector models unloaded
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Selected 1 segments with best frames
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Selected 2 segments with best frames
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Selected 1 segments with best frames
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Selected 0 segments with best frames
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - FrameSelector models unloaded
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Selected 1 segments with best frames
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 09:50:18 - MainThread - FrameSelector - INFO - Selected 1 segments with best frames
+2025-12-09 10:10:45 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 10:10:45 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 10:10:45 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:10:45 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:10:45 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:10:45 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:10:45 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 10:10:45 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 10:10:45 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:10:45 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:10:46 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:10:46 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 10:10:46 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 10:10:46 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:13:38 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 10:13:38 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Loading models (preload=False)
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Loading models (preload=False)
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Loading models (preload=False)
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 10:13:38 - MainThread - MockPipeline - WARNING - Error unloading model bc: Unload error
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Loading models (preload=False)
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 3
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 10:13:38 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:34:19 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:34:19 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpeyskqn6b/videos
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - Starting offline pipeline
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - Found 1 videos to process
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - Loading models (preload=False)
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - Models instantiated: 4, preloaded: 0
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - Processing video: test_video.mp4
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - WARNING - No valid detections found
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - WARNING - No ROI frames to process
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - WARNING - No keypoints to save
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - Finished processing test_video.mp4 in 0.00s
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - Offline pipeline completed successfully
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - Cleaning up pipeline resources
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - Pipeline cleanup complete
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp_7answhb/videos
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp_7answhb/detections/my_video_keypoints.csv
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpb_36rp3z/videos
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpb_36rp3z/detections/test_keypoints.csv
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpuzxlqkyj/videos
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpuzxlqkyj/detections/test_keypoints.csv
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpa8o2b33k/videos
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpa8o2b33k/detections/multi_frame_keypoints.csv
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpre3zn461/videos
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpb7z9_pbf/videos
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpoh0z17ud/videos
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmph4h7e7dr/videos
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpsj93klxk/videos
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp61dp7ut9/videos
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpw8iimorv/videos
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpwgi8epth/videos
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpjqceb1fo/videos
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmproan_52y/videos
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - Loading models (preload=False)
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - Models instantiated: 4, preloaded: 3
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpbb6ccfui/videos
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - Loading models (preload=False)
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - Models instantiated: 4, preloaded: 3
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpk2wqw9i8/videos
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - Loading models (preload=False)
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - WARNING - No ROI frames to process
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpbjr_zd1v/videos
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - Starting offline pipeline
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - WARNING - No video files found in /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpbjr_zd1v/videos
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp9v87h080/videos
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - Loading models (preload=True)
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - Cleaning up pipeline resources
+2025-12-09 11:34:19 - MainThread - OfflinePipeline - INFO - Pipeline cleanup complete
+2025-12-09 11:38:47 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:38:47 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:38:47 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:38:47 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpx6265_9r/videos
+2025-12-09 11:38:47 - MainThread - OfflinePipeline - INFO - Starting offline pipeline
+2025-12-09 11:38:47 - MainThread - OfflinePipeline - INFO - Found 1 videos to process
+2025-12-09 11:38:47 - MainThread - OfflinePipeline - INFO - Loading models (preload=False)
+2025-12-09 11:38:47 - MainThread - OfflinePipeline - INFO - Models instantiated: 4, preloaded: 0
+2025-12-09 11:38:47 - MainThread - OfflinePipeline - INFO - Processing video: test_video.mp4
+2025-12-09 11:38:47 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpx6265_9r/detections/test_video_keypoints.csv
+2025-12-09 11:38:47 - MainThread - OfflinePipeline - INFO - Finished processing test_video.mp4 in 0.00s
+2025-12-09 11:38:47 - MainThread - OfflinePipeline - INFO - Offline pipeline completed successfully
+2025-12-09 11:38:47 - MainThread - OfflinePipeline - INFO - Cleaning up pipeline resources
+2025-12-09 11:38:47 - MainThread - OfflinePipeline - INFO - Pipeline cleanup complete
+2025-12-09 11:41:34 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:41:34 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmptb3mb4n1/videos
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - Starting offline pipeline
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - Found 1 videos to process
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - Loading models (preload=False)
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - Models instantiated: 4, preloaded: 0
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - Processing video: test_video.mp4
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmptb3mb4n1/detections/test_video_keypoints.csv
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - Finished processing test_video.mp4 in 0.00s
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - Offline pipeline completed successfully
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - Cleaning up pipeline resources
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - Pipeline cleanup complete
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpspzl3kai/videos
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpspzl3kai/detections/my_video_keypoints.csv
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp5q9obxly/videos
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp5q9obxly/detections/test_keypoints.csv
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpawmuqypq/videos
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpawmuqypq/detections/test_keypoints.csv
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpnrx42laf/videos
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpnrx42laf/detections/multi_frame_keypoints.csv
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmplywqlh0z/videos
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpk0njhher/videos
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpvroofz_1/videos
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp5aj8xtgu/videos
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpw15h1am3/videos
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpht_j16pp/videos
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpvqkp83nz/videos
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmptww1jslh/videos
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpllhrs8ij/videos
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpclr9wae8/videos
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - Loading models (preload=False)
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - Models instantiated: 4, preloaded: 3
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp0ya4u9g6/videos
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - Loading models (preload=False)
+2025-12-09 11:41:34 - MainThread - OfflinePipeline - INFO - Models instantiated: 4, preloaded: 3
+2025-12-09 11:41:35 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:41:35 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpys6lj9fx/videos
+2025-12-09 11:41:35 - MainThread - OfflinePipeline - INFO - Loading models (preload=False)
+2025-12-09 11:41:35 - MainThread - OfflinePipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:41:35 - MainThread - OfflinePipeline - WARNING - No ROI frames to process
+2025-12-09 11:41:35 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:41:35 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpog1389vd/videos
+2025-12-09 11:41:35 - MainThread - OfflinePipeline - INFO - Starting offline pipeline
+2025-12-09 11:41:35 - MainThread - OfflinePipeline - WARNING - No video files found in /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpog1389vd/videos
+2025-12-09 11:41:35 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:41:35 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmperuu4f_3/videos
+2025-12-09 11:41:35 - MainThread - OfflinePipeline - INFO - Loading models (preload=True)
+2025-12-09 11:41:35 - MainThread - OfflinePipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:41:35 - MainThread - OfflinePipeline - INFO - Cleaning up pipeline resources
+2025-12-09 11:41:35 - MainThread - OfflinePipeline - INFO - Pipeline cleanup complete
+2025-12-09 11:44:55 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:44:55 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:44:55 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:55 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpvjia2g5x/videos
+2025-12-09 11:44:55 - MainThread - OfflinePipeline - INFO - Starting offline pipeline
+2025-12-09 11:44:55 - MainThread - OfflinePipeline - INFO - Found 1 videos to process
+2025-12-09 11:44:55 - MainThread - OfflinePipeline - INFO - Loading models (preload=False)
+2025-12-09 11:44:55 - MainThread - OfflinePipeline - INFO - Models instantiated: 4, preloaded: 0
+2025-12-09 11:44:55 - MainThread - OfflinePipeline - INFO - Processing video: test_video.mp4
+2025-12-09 11:44:55 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpvjia2g5x/detections/test_video_keypoints.csv
+2025-12-09 11:44:55 - MainThread - OfflinePipeline - INFO - Finished processing test_video.mp4 in 0.00s
+2025-12-09 11:44:55 - MainThread - OfflinePipeline - INFO - Offline pipeline completed successfully
+2025-12-09 11:44:55 - MainThread - OfflinePipeline - INFO - Cleaning up pipeline resources
+2025-12-09 11:44:55 - MainThread - OfflinePipeline - INFO - Pipeline cleanup complete
+2025-12-09 11:44:55 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:55 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpq93q5wg7/videos
+2025-12-09 11:44:55 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpq93q5wg7/detections/my_video_keypoints.csv
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp7yb99hpq/videos
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp7yb99hpq/detections/test_keypoints.csv
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpxj3w7sem/videos
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpxj3w7sem/detections/test_keypoints.csv
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp2ms1yxur/videos
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp2ms1yxur/detections/multi_frame_keypoints.csv
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpee865ku5/videos
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpjr2dguxo/videos
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpsh7at118/videos
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpv5atbslg/videos
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmphm6rpyt9/videos
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp4cbd40rr/videos
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpzmhc_l1p/videos
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmputm5go2_/videos
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpdspydict/videos
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpbyur2292/videos
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - Loading models (preload=False)
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - Models instantiated: 4, preloaded: 3
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpgcp2wb6k/videos
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - Loading models (preload=False)
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - Models instantiated: 4, preloaded: 3
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmptbt9ncjq/videos
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - Loading models (preload=False)
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - WARNING - No ROI frames to process
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmphfw34zoh/videos
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - Starting offline pipeline
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - WARNING - No video files found in /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmphfw34zoh/videos
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpd1j8dqpn/videos
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - Loading models (preload=True)
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - Cleaning up pipeline resources
+2025-12-09 11:44:56 - MainThread - OfflinePipeline - INFO - Pipeline cleanup complete
+2025-12-09 11:44:56 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 11:44:56 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 11:44:56 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 11:44:56 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 11:44:56 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 11:44:56 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 11:44:56 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 11:44:56 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 11:44:56 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Loading top model from test/top.tflite
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - FrameSelector models unloaded
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Selected 1 segments with best frames
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Selected 2 segments with best frames
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Selected 1 segments with best frames
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Selected 0 segments with best frames
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - FrameSelector models unloaded
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Selected 1 segments with best frames
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 11:44:56 - MainThread - FrameSelector - INFO - Selected 1 segments with best frames
+2025-12-09 11:44:56 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 11:44:56 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 11:44:56 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 11:44:56 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 11:44:56 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 11:44:56 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 11:44:56 - MainThread - KeypointDetector - INFO - KeypointDetector unloaded
+2025-12-09 11:44:56 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 11:44:56 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 11:44:56 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 11:44:56 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 11:44:56 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 11:44:56 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 11:44:56 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 11:44:56 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 11:44:56 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 11:44:56 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 11:44:56 - MainThread - KeypointDetector - INFO - KeypointDetector unloaded
+2025-12-09 11:44:56 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 11:44:56 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 11:44:56 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 11:44:56 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:44:56 - MainThread - test - INFO - Test message
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Log level changed to DEBUG
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:44:56 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:44:56 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 11:44:56 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 11:44:56 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 11:44:56 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 11:44:56 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 11:44:56 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 11:44:56 - MainThread - ObjectDetector - INFO - ObjectDetector unloaded
+2025-12-09 11:44:56 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 11:44:56 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 11:44:56 - MainThread - ObjectDetector - WARNING - Low confidence detection: 0.720
+2025-12-09 11:44:56 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 11:44:56 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 11:44:56 - MainThread - ObjectDetector - WARNING - Low confidence detection: 0.720
+2025-12-09 11:44:56 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 11:44:56 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 11:44:56 - MainThread - ObjectDetector - WARNING - Low confidence detection: 0.720
+2025-12-09 11:44:56 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 11:44:56 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 11:44:57 - MainThread - ObjectDetector - WARNING - Low confidence detection: 0.720
+2025-12-09 11:44:57 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 11:44:57 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 11:44:57 - MainThread - ObjectDetector - WARNING - No detections found in frame
+2025-12-09 11:44:57 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 11:44:57 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 11:44:57 - MainThread - ObjectDetector - INFO - ObjectDetector unloaded
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpw1uxb_zl/videos
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpilhow1kb/videos
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpg4v9u789/videos
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp6kssz2r6/videos
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp48l0gp2o/videos
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp6jf2aabu/videos
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp1_d4hjzh/nonexistent
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - ERROR - Video directory does not exist: /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp1_d4hjzh/nonexistent
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmph190_gdl/videos
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp0j4d4858/videos
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpt4rzeawv/videos
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpo96vqtzj/videos
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - Starting offline pipeline
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - WARNING - No video files found in /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpo96vqtzj/videos
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmprppefy86/videos
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - Starting offline pipeline
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - All video files have been processed
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmphupi7qq8/videos
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp42z_cnad/videos
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpi0dlweqo/videos
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpi0dlweqo/output/test_video_keypoints.csv
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpdq1nlgbw/videos
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpdq1nlgbw/output/test_keypoints.csv
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpizplike7/videos
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - WARNING - No keypoints to save
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpgg4cxwp0/videos
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - Cleaning up pipeline resources
+2025-12-09 11:44:57 - MainThread - OfflinePipeline - INFO - Pipeline cleanup complete
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Loading models (preload=False)
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Loading models (preload=False)
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Loading models (preload=False)
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 11:44:57 - MainThread - MockPipeline - WARNING - Error unloading model bc: Unload error
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Loading models (preload=False)
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 3
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 11:44:57 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:57:37 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:57:37 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:57:37 - MainThread - GStreamerCamera - INFO - Opening GStreamer camera (attempt 1/3)
+2025-12-09 11:57:37 - MainThread - GStreamerCamera - INFO - GStreamer camera opened successfully
+2025-12-09 11:57:37 - MainThread - GStreamerCamera - INFO - Opening GStreamer camera (attempt 1/3)
+2025-12-09 11:57:37 - MainThread - GStreamerCamera - WARNING - Failed to open camera on attempt 1
+2025-12-09 11:57:38 - MainThread - GStreamerCamera - INFO - Opening GStreamer camera (attempt 2/3)
+2025-12-09 11:57:38 - MainThread - GStreamerCamera - WARNING - Failed to open camera on attempt 2
+2025-12-09 11:57:39 - MainThread - GStreamerCamera - INFO - Opening GStreamer camera (attempt 3/3)
+2025-12-09 11:57:39 - MainThread - GStreamerCamera - WARNING - Failed to open camera on attempt 3
+2025-12-09 11:57:39 - MainThread - GStreamerCamera - ERROR - Failed to open GStreamer camera after all retries
+2025-12-09 11:57:39 - MainThread - GStreamerCamera - INFO - Opening GStreamer camera (attempt 1/3)
+2025-12-09 11:57:39 - MainThread - GStreamerCamera - INFO - GStreamer camera opened successfully
+2025-12-09 11:57:39 - MainThread - GStreamerCamera - INFO - Opening GStreamer camera (attempt 1/3)
+2025-12-09 11:57:39 - MainThread - GStreamerCamera - INFO - GStreamer camera opened successfully
+2025-12-09 11:57:39 - MainThread - GStreamerCamera - WARNING - Failed to read frame from camera
+2025-12-09 11:57:39 - MainThread - GStreamerCamera - INFO - Opening GStreamer camera (attempt 1/3)
+2025-12-09 11:57:39 - MainThread - GStreamerCamera - INFO - GStreamer camera opened successfully
+2025-12-09 11:57:39 - MainThread - GStreamerCamera - INFO - GStreamer camera released
+2025-12-09 11:57:39 - MainThread - OpenCVCamera - INFO - Opening OpenCV camera '/dev/video0' (attempt 1/3)
+2025-12-09 11:57:39 - MainThread - OpenCVCamera - INFO - OpenCV camera opened successfully
+2025-12-09 11:57:39 - MainThread - OpenCVCamera - INFO - Opening OpenCV camera '/dev/video0' (attempt 1/3)
+2025-12-09 11:57:39 - MainThread - OpenCVCamera - INFO - OpenCV camera opened successfully
+2025-12-09 11:57:39 - MainThread - OpenCVCamera - INFO - Opening OpenCV camera '/dev/video0' (attempt 1/3)
+2025-12-09 11:57:39 - MainThread - OpenCVCamera - WARNING - Failed to open camera on attempt 1
+2025-12-09 11:57:40 - MainThread - OpenCVCamera - INFO - Opening OpenCV camera '/dev/video0' (attempt 2/3)
+2025-12-09 11:57:40 - MainThread - OpenCVCamera - WARNING - Failed to open camera on attempt 2
+2025-12-09 11:57:41 - MainThread - OpenCVCamera - INFO - Opening OpenCV camera '/dev/video0' (attempt 3/3)
+2025-12-09 11:57:41 - MainThread - OpenCVCamera - WARNING - Failed to open camera on attempt 3
+2025-12-09 11:57:41 - MainThread - OpenCVCamera - ERROR - Failed to open OpenCV camera after all retries
+2025-12-09 11:57:41 - MainThread - OpenCVCamera - INFO - Opening OpenCV camera '/dev/video0' (attempt 1/3)
+2025-12-09 11:57:41 - MainThread - OpenCVCamera - INFO - OpenCV camera opened successfully
+2025-12-09 11:57:41 - MainThread - OpenCVCamera - INFO - Opening OpenCV camera '/dev/video0' (attempt 1/3)
+2025-12-09 11:57:41 - MainThread - OpenCVCamera - INFO - OpenCV camera opened successfully
+2025-12-09 11:57:41 - MainThread - OpenCVCamera - INFO - OpenCV camera released
+2025-12-09 11:57:41 - MainThread - crustacean.camera - INFO - Creating camera of type: csi
+2025-12-09 11:57:41 - MainThread - crustacean.camera - INFO - Creating camera of type: usb
+2025-12-09 11:57:41 - MainThread - crustacean.camera - INFO - Creating camera of type: gstreamer
+2025-12-09 11:57:41 - MainThread - crustacean.camera - INFO - Creating camera of type: opencv
+2025-12-09 11:57:41 - MainThread - crustacean.camera - INFO - Creating camera of type: invalid
+2025-12-09 11:57:41 - MainThread - crustacean.camera - INFO - Creating camera of type: csi
+2025-12-09 11:57:41 - MainThread - crustacean.camera - INFO - Creating camera of type: csi
+2025-12-09 11:58:44 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:58:44 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpevn1depu/videos
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - Starting offline pipeline
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - Found 1 videos to process
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - Loading models (preload=False)
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - Models instantiated: 4, preloaded: 0
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - Processing video: test_video.mp4
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpevn1depu/detections/test_video_keypoints.csv
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - Finished processing test_video.mp4 in 0.00s
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - Offline pipeline completed successfully
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - Cleaning up pipeline resources
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - Pipeline cleanup complete
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp2yzeyc7x/videos
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp2yzeyc7x/detections/my_video_keypoints.csv
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmplfhm1l8u/videos
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmplfhm1l8u/detections/test_keypoints.csv
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpxzfg4whl/videos
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpxzfg4whl/detections/test_keypoints.csv
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp8e7bjqsv/videos
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp8e7bjqsv/detections/multi_frame_keypoints.csv
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp8dmoonf6/videos
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpvjh_pz7p/videos
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpvw_1ujw7/videos
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmprqgbubg1/videos
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp__vriu9s/videos
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpvzzaz6ex/videos
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmptpo_u_rn/videos
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp3_4937r_/videos
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpf9avuct1/videos
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpo7hucphv/videos
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - Loading models (preload=False)
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - Models instantiated: 4, preloaded: 3
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpiwt6mlfp/videos
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - Loading models (preload=False)
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - Models instantiated: 4, preloaded: 3
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpt6sr7umj/videos
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - Loading models (preload=False)
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - WARNING - No ROI frames to process
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp_ye4vw1o/videos
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - Starting offline pipeline
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - WARNING - No video files found in /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp_ye4vw1o/videos
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpahh3b7ty/videos
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - Loading models (preload=True)
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - Cleaning up pipeline resources
+2025-12-09 11:58:44 - MainThread - OfflinePipeline - INFO - Pipeline cleanup complete
+2025-12-09 11:58:44 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 11:58:44 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 11:58:44 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 11:58:44 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 11:58:44 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 11:58:44 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 11:58:44 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 11:58:44 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 11:58:44 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 11:58:44 - MainThread - GStreamerCamera - INFO - Opening GStreamer camera (attempt 1/3)
+2025-12-09 11:58:44 - MainThread - GStreamerCamera - INFO - GStreamer camera opened successfully
+2025-12-09 11:58:44 - MainThread - GStreamerCamera - INFO - Opening GStreamer camera (attempt 1/3)
+2025-12-09 11:58:44 - MainThread - GStreamerCamera - WARNING - Failed to open camera on attempt 1
+2025-12-09 11:58:45 - MainThread - GStreamerCamera - INFO - Opening GStreamer camera (attempt 2/3)
+2025-12-09 11:58:45 - MainThread - GStreamerCamera - WARNING - Failed to open camera on attempt 2
+2025-12-09 11:58:46 - MainThread - GStreamerCamera - INFO - Opening GStreamer camera (attempt 3/3)
+2025-12-09 11:58:46 - MainThread - GStreamerCamera - WARNING - Failed to open camera on attempt 3
+2025-12-09 11:58:46 - MainThread - GStreamerCamera - ERROR - Failed to open GStreamer camera after all retries
+2025-12-09 11:58:46 - MainThread - GStreamerCamera - INFO - Opening GStreamer camera (attempt 1/3)
+2025-12-09 11:58:46 - MainThread - GStreamerCamera - INFO - GStreamer camera opened successfully
+2025-12-09 11:58:46 - MainThread - GStreamerCamera - INFO - Opening GStreamer camera (attempt 1/3)
+2025-12-09 11:58:46 - MainThread - GStreamerCamera - INFO - GStreamer camera opened successfully
+2025-12-09 11:58:46 - MainThread - GStreamerCamera - WARNING - Failed to read frame from camera
+2025-12-09 11:58:46 - MainThread - GStreamerCamera - INFO - Opening GStreamer camera (attempt 1/3)
+2025-12-09 11:58:46 - MainThread - GStreamerCamera - INFO - GStreamer camera opened successfully
+2025-12-09 11:58:46 - MainThread - GStreamerCamera - INFO - GStreamer camera released
+2025-12-09 11:58:46 - MainThread - OpenCVCamera - INFO - Opening OpenCV camera '/dev/video0' (attempt 1/3)
+2025-12-09 11:58:46 - MainThread - OpenCVCamera - INFO - OpenCV camera opened successfully
+2025-12-09 11:58:46 - MainThread - OpenCVCamera - INFO - Opening OpenCV camera '/dev/video0' (attempt 1/3)
+2025-12-09 11:58:46 - MainThread - OpenCVCamera - INFO - OpenCV camera opened successfully
+2025-12-09 11:58:46 - MainThread - OpenCVCamera - INFO - Opening OpenCV camera '/dev/video0' (attempt 1/3)
+2025-12-09 11:58:46 - MainThread - OpenCVCamera - WARNING - Failed to open camera on attempt 1
+2025-12-09 11:58:47 - MainThread - OpenCVCamera - INFO - Opening OpenCV camera '/dev/video0' (attempt 2/3)
+2025-12-09 11:58:47 - MainThread - OpenCVCamera - WARNING - Failed to open camera on attempt 2
+2025-12-09 11:58:48 - MainThread - OpenCVCamera - INFO - Opening OpenCV camera '/dev/video0' (attempt 3/3)
+2025-12-09 11:58:48 - MainThread - OpenCVCamera - WARNING - Failed to open camera on attempt 3
+2025-12-09 11:58:48 - MainThread - OpenCVCamera - ERROR - Failed to open OpenCV camera after all retries
+2025-12-09 11:58:48 - MainThread - OpenCVCamera - INFO - Opening OpenCV camera '/dev/video0' (attempt 1/3)
+2025-12-09 11:58:48 - MainThread - OpenCVCamera - INFO - OpenCV camera opened successfully
+2025-12-09 11:58:48 - MainThread - OpenCVCamera - INFO - Opening OpenCV camera '/dev/video0' (attempt 1/3)
+2025-12-09 11:58:48 - MainThread - OpenCVCamera - INFO - OpenCV camera opened successfully
+2025-12-09 11:58:48 - MainThread - OpenCVCamera - INFO - OpenCV camera released
+2025-12-09 11:58:48 - MainThread - crustacean.camera - INFO - Creating camera of type: csi
+2025-12-09 11:58:48 - MainThread - crustacean.camera - INFO - Creating camera of type: usb
+2025-12-09 11:58:48 - MainThread - crustacean.camera - INFO - Creating camera of type: gstreamer
+2025-12-09 11:58:48 - MainThread - crustacean.camera - INFO - Creating camera of type: opencv
+2025-12-09 11:58:48 - MainThread - crustacean.camera - INFO - Creating camera of type: invalid
+2025-12-09 11:58:48 - MainThread - crustacean.camera - INFO - Creating camera of type: csi
+2025-12-09 11:58:48 - MainThread - crustacean.camera - INFO - Creating camera of type: csi
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Loading top model from test/top.tflite
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - FrameSelector models unloaded
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Selected 1 segments with best frames
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Selected 2 segments with best frames
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Selected 1 segments with best frames
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Selected 0 segments with best frames
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - FrameSelector models unloaded
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Selected 1 segments with best frames
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 11:58:48 - MainThread - FrameSelector - INFO - Selected 1 segments with best frames
+2025-12-09 11:58:48 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 11:58:48 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 11:58:48 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 11:58:48 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 11:58:48 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 11:58:48 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 11:58:48 - MainThread - KeypointDetector - INFO - KeypointDetector unloaded
+2025-12-09 11:58:48 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 11:58:48 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 11:58:48 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 11:58:48 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 11:58:48 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 11:58:48 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 11:58:48 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 11:58:48 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 11:58:48 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 11:58:48 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 11:58:48 - MainThread - KeypointDetector - INFO - KeypointDetector unloaded
+2025-12-09 11:58:48 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 11:58:48 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 11:58:48 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 11:58:48 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:58:48 - MainThread - test - INFO - Test message
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Log level changed to DEBUG
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 11:58:48 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 11:58:48 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 11:58:48 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 11:58:48 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 11:58:48 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 11:58:48 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 11:58:48 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 11:58:48 - MainThread - ObjectDetector - INFO - ObjectDetector unloaded
+2025-12-09 11:58:49 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 11:58:49 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 11:58:49 - MainThread - ObjectDetector - WARNING - Low confidence detection: 0.720
+2025-12-09 11:58:49 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 11:58:49 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 11:58:49 - MainThread - ObjectDetector - WARNING - Low confidence detection: 0.720
+2025-12-09 11:58:49 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 11:58:49 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 11:58:49 - MainThread - ObjectDetector - WARNING - Low confidence detection: 0.720
+2025-12-09 11:58:49 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 11:58:49 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 11:58:49 - MainThread - ObjectDetector - WARNING - Low confidence detection: 0.720
+2025-12-09 11:58:49 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 11:58:49 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 11:58:49 - MainThread - ObjectDetector - WARNING - No detections found in frame
+2025-12-09 11:58:49 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 11:58:49 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 11:58:49 - MainThread - ObjectDetector - INFO - ObjectDetector unloaded
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp2iuiw9s8/videos
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpr_zqx5to/videos
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpn4t808yo/videos
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpfrydi0az/videos
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmppxnh4rf9/videos
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpnadm9lce/videos
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpjbu7xudi/nonexistent
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - ERROR - Video directory does not exist: /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpjbu7xudi/nonexistent
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpdxdf1yw1/videos
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpm5szmgfk/videos
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp4mizv0ct/videos
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp3wia9_4w/videos
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - Starting offline pipeline
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - WARNING - No video files found in /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp3wia9_4w/videos
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpb5dw683n/videos
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - Starting offline pipeline
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - All video files have been processed
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpd6eifv7h/videos
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp5z78vq7j/videos
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpskcwoup3/videos
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpskcwoup3/output/test_video_keypoints.csv
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmppvgwb2vz/videos
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmppvgwb2vz/output/test_keypoints.csv
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp3jj4iknj/videos
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - WARNING - No keypoints to save
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpcbqt3bgq/videos
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - Cleaning up pipeline resources
+2025-12-09 11:58:49 - MainThread - OfflinePipeline - INFO - Pipeline cleanup complete
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Loading models (preload=False)
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Loading models (preload=False)
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Loading models (preload=False)
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 11:58:49 - MainThread - MockPipeline - WARNING - Error unloading model bc: Unload error
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Loading models (preload=False)
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 3
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 11:58:49 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 12:09:48 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 12:09:48 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 12:09:48 - MainThread - AnalysisThread - INFO - AnalysisThread initialized
+2025-12-09 12:09:48 - MainThread - AnalysisThread - INFO - AnalysisThread initialized
+2025-12-09 12:09:48 - MainThread - AnalysisThread - INFO - Stopping AnalysisThread
+2025-12-09 12:09:48 - MainThread - AnalysisThread - INFO - AnalysisThread initialized
+2025-12-09 12:09:48 - MainThread - AnalysisThread - INFO - AnalysisThread initialized
+2025-12-09 12:09:48 - MainThread - AnalysisThread - INFO - AnalysisThread initialized
+2025-12-09 12:09:48 - MainThread - DetectionThread - INFO - DetectionThread initialized
+2025-12-09 12:09:48 - MainThread - DetectionThread - INFO - DetectionThread initialized
+2025-12-09 12:09:48 - MainThread - DetectionThread - INFO - Stopping DetectionThread
+2025-12-09 12:09:48 - MainThread - DetectionThread - INFO - DetectionThread initialized
+2025-12-09 12:09:48 - MainThread - DetectionThread - INFO - DetectionThread initialized
+2025-12-09 12:09:48 - MainThread - DetectionThread - INFO - DetectionThread initialized
+2025-12-09 12:09:48 - MainThread - crustacean.threads.save_thread - INFO - Saving detection to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpdtj52she/detections/2025-12-09_12-09-48_Detection
+2025-12-09 12:09:48 - MainThread - crustacean.threads.save_thread - INFO - Detection saved: frame=100, confidence=0.850
+2025-12-09 12:09:48 - MainThread - crustacean.threads.save_thread - INFO - Saving detection to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpng0pnz3_/detections/2025-12-09_12-09-48_Detection
+2025-12-09 12:09:48 - MainThread - crustacean.threads.save_thread - INFO - Detection saved: frame=100, confidence=0.850
+2025-12-09 12:09:48 - MainThread - crustacean.threads.save_thread - INFO - Saving detection to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp09qnac58/detections/2025-12-09_12-09-48_Detection
+2025-12-09 12:09:48 - MainThread - crustacean.threads.save_thread - INFO - Detection saved: frame=100, confidence=0.850
+2025-12-09 12:09:48 - MainThread - crustacean.threads.save_thread - INFO - Saving detection to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpqaxxa9h9/detections/2025-12-09_12-09-48_Detection
+2025-12-09 12:09:48 - MainThread - crustacean.threads.save_thread - INFO - Detection saved: frame=100, confidence=0.850
+2025-12-09 12:09:48 - MainThread - crustacean.threads.save_thread - INFO - Saving detection to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp4l4lqza6/detections/2025-12-09_12-09-48_Detection
+2025-12-09 12:09:48 - MainThread - crustacean.threads.save_thread - ERROR - cv2.imwrite failed for /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp4l4lqza6/detections/2025-12-09_12-09-48_Detection/2025-12-09_12-09-48_screenshot.jpg
+2025-12-09 12:09:48 - MainThread - crustacean.threads.save_thread - ERROR - Failed to save frame
+2025-12-09 12:09:48 - MainThread - AnalysisThread - INFO - AnalysisThread initialized
+2025-12-09 12:09:48 - MainThread - DetectionThread - INFO - DetectionThread initialized
+2025-12-09 12:12:57 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 12:12:57 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpnbhd8t8a/videos
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - Starting offline pipeline
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - Found 1 videos to process
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - Loading models (preload=False)
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - Models instantiated: 4, preloaded: 0
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - Processing video: test_video.mp4
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpnbhd8t8a/detections/test_video_keypoints.csv
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - Finished processing test_video.mp4 in 0.00s
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - Offline pipeline completed successfully
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - Cleaning up pipeline resources
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - Pipeline cleanup complete
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpxetxb7g6/videos
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpxetxb7g6/detections/my_video_keypoints.csv
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpnxgj97ci/videos
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpnxgj97ci/detections/test_keypoints.csv
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp722biqgp/videos
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp722biqgp/detections/test_keypoints.csv
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpx58djw_d/videos
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpx58djw_d/detections/multi_frame_keypoints.csv
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpy3fev66r/videos
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmprqwg6poh/videos
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpqmc_gs3k/videos
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp5upy54c9/videos
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp103o7dk0/videos
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpec7jxjrw/videos
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpep96rnvo/videos
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpq9whqg1t/videos
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpcsz8vz_j/videos
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp3xjx487x/videos
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - Loading models (preload=False)
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - Models instantiated: 4, preloaded: 3
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpnzsi98ke/videos
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - Loading models (preload=False)
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - Models instantiated: 4, preloaded: 3
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmps53swxru/videos
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - Loading models (preload=False)
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - WARNING - No ROI frames to process
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpw4nj2a35/videos
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - Starting offline pipeline
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - WARNING - No video files found in /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpw4nj2a35/videos
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmppq2_9w8e/videos
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - Loading models (preload=True)
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - Cleaning up pipeline resources
+2025-12-09 12:12:57 - MainThread - OfflinePipeline - INFO - Pipeline cleanup complete
+2025-12-09 12:12:57 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 12:12:57 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 12:12:57 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 12:12:57 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 12:12:57 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 12:12:57 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 12:12:57 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 12:12:57 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 12:12:57 - MainThread - MockModel - INFO - MockModel unloaded
+2025-12-09 12:12:57 - MainThread - GStreamerCamera - INFO - Opening GStreamer camera (attempt 1/3)
+2025-12-09 12:12:57 - MainThread - GStreamerCamera - INFO - GStreamer camera opened successfully
+2025-12-09 12:12:57 - MainThread - GStreamerCamera - INFO - Opening GStreamer camera (attempt 1/3)
+2025-12-09 12:12:57 - MainThread - GStreamerCamera - WARNING - Failed to open camera on attempt 1
+2025-12-09 12:12:58 - MainThread - GStreamerCamera - INFO - Opening GStreamer camera (attempt 2/3)
+2025-12-09 12:12:58 - MainThread - GStreamerCamera - WARNING - Failed to open camera on attempt 2
+2025-12-09 12:12:59 - MainThread - GStreamerCamera - INFO - Opening GStreamer camera (attempt 3/3)
+2025-12-09 12:12:59 - MainThread - GStreamerCamera - WARNING - Failed to open camera on attempt 3
+2025-12-09 12:12:59 - MainThread - GStreamerCamera - ERROR - Failed to open GStreamer camera after all retries
+2025-12-09 12:12:59 - MainThread - GStreamerCamera - INFO - Opening GStreamer camera (attempt 1/3)
+2025-12-09 12:12:59 - MainThread - GStreamerCamera - INFO - GStreamer camera opened successfully
+2025-12-09 12:12:59 - MainThread - GStreamerCamera - INFO - Opening GStreamer camera (attempt 1/3)
+2025-12-09 12:12:59 - MainThread - GStreamerCamera - INFO - GStreamer camera opened successfully
+2025-12-09 12:12:59 - MainThread - GStreamerCamera - WARNING - Failed to read frame from camera
+2025-12-09 12:12:59 - MainThread - GStreamerCamera - INFO - Opening GStreamer camera (attempt 1/3)
+2025-12-09 12:12:59 - MainThread - GStreamerCamera - INFO - GStreamer camera opened successfully
+2025-12-09 12:12:59 - MainThread - GStreamerCamera - INFO - GStreamer camera released
+2025-12-09 12:12:59 - MainThread - OpenCVCamera - INFO - Opening OpenCV camera '/dev/video0' (attempt 1/3)
+2025-12-09 12:12:59 - MainThread - OpenCVCamera - INFO - OpenCV camera opened successfully
+2025-12-09 12:12:59 - MainThread - OpenCVCamera - INFO - Opening OpenCV camera '/dev/video0' (attempt 1/3)
+2025-12-09 12:12:59 - MainThread - OpenCVCamera - INFO - OpenCV camera opened successfully
+2025-12-09 12:12:59 - MainThread - OpenCVCamera - INFO - Opening OpenCV camera '/dev/video0' (attempt 1/3)
+2025-12-09 12:12:59 - MainThread - OpenCVCamera - WARNING - Failed to open camera on attempt 1
+2025-12-09 12:13:00 - MainThread - OpenCVCamera - INFO - Opening OpenCV camera '/dev/video0' (attempt 2/3)
+2025-12-09 12:13:00 - MainThread - OpenCVCamera - WARNING - Failed to open camera on attempt 2
+2025-12-09 12:13:01 - MainThread - OpenCVCamera - INFO - Opening OpenCV camera '/dev/video0' (attempt 3/3)
+2025-12-09 12:13:01 - MainThread - OpenCVCamera - WARNING - Failed to open camera on attempt 3
+2025-12-09 12:13:01 - MainThread - OpenCVCamera - ERROR - Failed to open OpenCV camera after all retries
+2025-12-09 12:13:01 - MainThread - OpenCVCamera - INFO - Opening OpenCV camera '/dev/video0' (attempt 1/3)
+2025-12-09 12:13:01 - MainThread - OpenCVCamera - INFO - OpenCV camera opened successfully
+2025-12-09 12:13:01 - MainThread - OpenCVCamera - INFO - Opening OpenCV camera '/dev/video0' (attempt 1/3)
+2025-12-09 12:13:01 - MainThread - OpenCVCamera - INFO - OpenCV camera opened successfully
+2025-12-09 12:13:01 - MainThread - OpenCVCamera - INFO - OpenCV camera released
+2025-12-09 12:13:01 - MainThread - crustacean.camera - INFO - Creating camera of type: csi
+2025-12-09 12:13:01 - MainThread - crustacean.camera - INFO - Creating camera of type: usb
+2025-12-09 12:13:01 - MainThread - crustacean.camera - INFO - Creating camera of type: gstreamer
+2025-12-09 12:13:01 - MainThread - crustacean.camera - INFO - Creating camera of type: opencv
+2025-12-09 12:13:01 - MainThread - crustacean.camera - INFO - Creating camera of type: invalid
+2025-12-09 12:13:01 - MainThread - crustacean.camera - INFO - Creating camera of type: csi
+2025-12-09 12:13:01 - MainThread - crustacean.camera - INFO - Creating camera of type: csi
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Loading top model from test/top.tflite
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - FrameSelector models unloaded
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Selected 1 segments with best frames
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Selected 2 segments with best frames
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Selected 1 segments with best frames
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Selected 0 segments with best frames
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - FrameSelector models unloaded
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Selected 1 segments with best frames
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Loading top model from test/top_model.tflite
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Loading bottom model from test/bottom_model.tflite
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - FrameSelector models loaded successfully
+2025-12-09 12:13:01 - MainThread - FrameSelector - INFO - Selected 1 segments with best frames
+2025-12-09 12:13:01 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 12:13:01 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 12:13:01 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 12:13:01 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 12:13:01 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 12:13:01 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 12:13:01 - MainThread - KeypointDetector - INFO - KeypointDetector unloaded
+2025-12-09 12:13:01 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 12:13:01 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 12:13:01 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 12:13:01 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 12:13:01 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 12:13:01 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 12:13:01 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 12:13:01 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 12:13:01 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 12:13:01 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 12:13:01 - MainThread - KeypointDetector - INFO - KeypointDetector unloaded
+2025-12-09 12:13:01 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 12:13:01 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 12:13:01 - MainThread - KeypointDetector - INFO - Loading keypoint detector from test/kd_model.tflite
+2025-12-09 12:13:01 - MainThread - KeypointDetector - INFO - KeypointDetector model loaded successfully
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 12:13:01 - MainThread - test - INFO - Test message
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Log level changed to DEBUG
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Logging system initialized (level: INFO)
+2025-12-09 12:13:01 - MainThread - crustacean.utils.logging_setup - INFO - Log file: logs/crustacean_monitoring.log
+2025-12-09 12:13:01 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 12:13:01 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 12:13:01 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 12:13:01 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 12:13:01 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 12:13:01 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 12:13:01 - MainThread - ObjectDetector - INFO - ObjectDetector unloaded
+2025-12-09 12:13:02 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 12:13:02 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 12:13:02 - MainThread - ObjectDetector - WARNING - Low confidence detection: 0.720
+2025-12-09 12:13:02 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 12:13:02 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 12:13:02 - MainThread - ObjectDetector - WARNING - Low confidence detection: 0.720
+2025-12-09 12:13:02 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 12:13:02 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 12:13:02 - MainThread - ObjectDetector - WARNING - Low confidence detection: 0.720
+2025-12-09 12:13:02 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 12:13:02 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 12:13:02 - MainThread - ObjectDetector - WARNING - Low confidence detection: 0.720
+2025-12-09 12:13:02 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 12:13:02 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 12:13:02 - MainThread - ObjectDetector - WARNING - No detections found in frame
+2025-12-09 12:13:02 - MainThread - ObjectDetector - INFO - Loading object detector from test/od_model.tflite
+2025-12-09 12:13:02 - MainThread - ObjectDetector - INFO - ObjectDetector model loaded successfully
+2025-12-09 12:13:02 - MainThread - ObjectDetector - INFO - ObjectDetector unloaded
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpva8eh390/videos
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpm27o0e57/videos
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp9wc14njy/videos
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp2ruzpjr6/videos
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpq200t6qj/videos
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpw4dynr74/videos
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpkbfy1gox/nonexistent
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - ERROR - Video directory does not exist: /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpkbfy1gox/nonexistent
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp3ydp30wa/videos
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpi91i05k0/videos
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpy17_f3jy/videos
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp56mpz42y/videos
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - Starting offline pipeline
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - WARNING - No video files found in /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp56mpz42y/videos
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp26_7qn2m/videos
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - Starting offline pipeline
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - All video files have been processed
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp1juujgsh/videos
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp3p05uz46/videos
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpmx7ksnvg/videos
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpmx7ksnvg/output/test_video_keypoints.csv
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpktwi9efw/videos
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - Saved keypoints to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpktwi9efw/output/test_keypoints.csv
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpaszgq5np/videos
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - WARNING - No keypoints to save
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - OfflinePipeline initialized with video_dir=/var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpjwubn1_b/videos
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - Cleaning up pipeline resources
+2025-12-09 12:13:02 - MainThread - OfflinePipeline - INFO - Pipeline cleanup complete
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Loading models (preload=False)
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Loading models (preload=False)
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Loading models (preload=False)
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 12:13:02 - MainThread - MockPipeline - WARNING - Error unloading model bc: Unload error
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Loading models (preload=False)
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 3
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Cleaning up pipeline resources
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Pipeline cleanup complete
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - MockPipeline initialized
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Loading models (preload=True)
+2025-12-09 12:13:02 - MainThread - MockPipeline - INFO - Models instantiated: 4, preloaded: 4
+2025-12-09 12:13:02 - MainThread - AnalysisThread - INFO - AnalysisThread initialized
+2025-12-09 12:13:02 - MainThread - AnalysisThread - INFO - AnalysisThread initialized
+2025-12-09 12:13:02 - MainThread - AnalysisThread - INFO - Stopping AnalysisThread
+2025-12-09 12:13:02 - MainThread - AnalysisThread - INFO - AnalysisThread initialized
+2025-12-09 12:13:02 - MainThread - AnalysisThread - INFO - AnalysisThread initialized
+2025-12-09 12:13:02 - MainThread - AnalysisThread - INFO - AnalysisThread initialized
+2025-12-09 12:13:02 - MainThread - DetectionThread - INFO - DetectionThread initialized
+2025-12-09 12:13:02 - MainThread - DetectionThread - INFO - DetectionThread initialized
+2025-12-09 12:13:02 - MainThread - DetectionThread - INFO - Stopping DetectionThread
+2025-12-09 12:13:02 - MainThread - DetectionThread - INFO - DetectionThread initialized
+2025-12-09 12:13:02 - MainThread - DetectionThread - INFO - DetectionThread initialized
+2025-12-09 12:13:02 - MainThread - DetectionThread - INFO - DetectionThread initialized
+2025-12-09 12:13:02 - MainThread - crustacean.threads.save_thread - INFO - Saving detection to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpmnzauxs_/detections/2025-12-09_12-13-02_Detection
+2025-12-09 12:13:02 - MainThread - crustacean.threads.save_thread - INFO - Detection saved: frame=100, confidence=0.850
+2025-12-09 12:13:02 - MainThread - crustacean.threads.save_thread - INFO - Saving detection to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmpukk92ks4/detections/2025-12-09_12-13-02_Detection
+2025-12-09 12:13:02 - MainThread - crustacean.threads.save_thread - INFO - Detection saved: frame=100, confidence=0.850
+2025-12-09 12:13:02 - MainThread - crustacean.threads.save_thread - INFO - Saving detection to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp8_pcnmc3/detections/2025-12-09_12-13-02_Detection
+2025-12-09 12:13:02 - MainThread - crustacean.threads.save_thread - INFO - Detection saved: frame=100, confidence=0.850
+2025-12-09 12:13:02 - MainThread - crustacean.threads.save_thread - INFO - Saving detection to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp59vyu9ie/detections/2025-12-09_12-13-02_Detection
+2025-12-09 12:13:02 - MainThread - crustacean.threads.save_thread - INFO - Detection saved: frame=100, confidence=0.850
+2025-12-09 12:13:02 - MainThread - crustacean.threads.save_thread - INFO - Saving detection to /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp78zr_42c/detections/2025-12-09_12-13-02_Detection
+2025-12-09 12:13:02 - MainThread - crustacean.threads.save_thread - ERROR - cv2.imwrite failed for /var/folders/zy/wpvq4hqj5x73bx6n8w4961kw0000gn/T/tmp78zr_42c/detections/2025-12-09_12-13-02_Detection/2025-12-09_12-13-02_screenshot.jpg
+2025-12-09 12:13:02 - MainThread - crustacean.threads.save_thread - ERROR - Failed to save frame
+2025-12-09 12:13:02 - MainThread - AnalysisThread - INFO - AnalysisThread initialized
+2025-12-09 12:13:02 - MainThread - DetectionThread - INFO - DetectionThread initialized
