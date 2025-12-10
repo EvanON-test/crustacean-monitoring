@@ -1,0 +1,38 @@
+# Include documentation
+include README.md
+include LICENSE
+include MANIFEST.in
+
+# Include configuration files
+include config/*.yaml
+include config/*.json
+
+# Include requirements files
+include requirements*.txt
+
+# Include documentation
+recursive-include docs *.md
+
+# Include type hints marker
+include crustacean/py.typed
+
+# Exclude test files from distribution
+recursive-exclude tests *
+recursive-exclude .kiro *
+
+# Exclude development files
+exclude .gitignore
+exclude .gitattributes
+recursive-exclude __pycache__ *
+recursive-exclude *.pyc
+recursive-exclude .pytest_cache *
+
+# Exclude model files (too large for PyPI)
+recursive-exclude processing *.tflite
+recursive-exclude processing *.onnx
+recursive-exclude processing *.pt
+
+# Exclude output directories
+recursive-exclude realtime_frames *
+recursive-exclude benchmark *
+recursive-exclude logs *

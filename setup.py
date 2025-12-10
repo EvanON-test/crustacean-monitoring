@@ -1,67 +1,167 @@
 """
 Setup script for Crustacean Monitoring System.
 
-This is a minimal setup.py for development installation.
-A more comprehensive version will be created in Phase 4.
+This setup.py enables installation of the crustacean package and provides
+command-line entry points for running the pipelines.
+
+Installation:
+    pip install -e .                    # Development install
+    pip install -e ".[dev]"             # With development dependencies
+    pip install -e ".[jetson]"          # With Jetson-specific dependencies
+    pip install -e ".[dev,jetson]"      # With all extras
+
+After installation, you can run:
+    crustacean-offline --video-dir ./videos
+    crustacean-realtime --display
+    crustacean-monitor --video-dir ./videos --output metrics.csv
 """
 
 from setuptools import setup, find_packages
 from pathlib import Path
 
-# Read the README file
-readme_file = Path(__file__).parent / "README.md"
-long_description = readme_file.read_text(encoding="utf-8") if readme_file.exists() else ""
+# Package metadata
+NAME = "crustacean-monitoring"
+VERSION = "2.0.0"
+AUTHOR = "Crustacean Monitoring Team"
+AUTHOR_EMAIL = ""
+DESCRIPTION = "Real-time computer vision pipeline for detecting and analyzing crustaceans on edge devices"
+URL = "https://github.com/EvanON-test/crustacean-monitoring"
+LICENSE = "MIT"
 
-# Read requirements
+# Read the README file for long description
+readme_file = Path(__file__).parent / "README.md"
+long_description = ""
+if readme_file.exists():
+    long_description = readme_file.read_text(encoding="utf-8")
+
+# Read requirements from requirements.txt
 requirements_file = Path(__file__).parent / "requirements.txt"
-requirements = []
+install_requires = []
 if requirements_file.exists():
     with open(requirements_file) as f:
-        requirements = [
-            line.strip()
-            for line in f
-            if line.strip() and not line.startswith("#") and not line.startswith("-")
-        ]
+        for line in f:
+            line = line.strip()
+            # Skip empty lines, comments, and -r includes
+            if line and not line.startswith("#") and not line.startswith("-"):
+                install_requires.append(line)
+
+# Development dependencies
+dev_requires = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "pytest-timeout>=2.1.0",
+    "black>=23.7.0",
+    "flake8>=6.1.0",
+    "mypy>=1.5.0",
+    "isort>=5.12.0",
+]
+
+# Jetson-specific dependencies
+jetson_requires = [
+    "jetson-stats>=4.2.0",
+]
+
+# Raspberry Pi dependencies
+pi_requires = [
+    "gpiozero>=1.6.0",
+]
 
 setup(
-    name="crustacean-monitoring",
-    version="2.0.0",
-    author="Crustacean Monitoring Team",
-    description="Real-time computer vision pipeline for detecting and analyzing crustaceans on edge devices",
+    name=NAME,
+    version=VERSION,
+    author=AUTHOR,
+    author_email=AUTHOR_EMAIL,
+    description=DESCRIPTION,
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/EvanON-test/crustacean-monitoring",
-    packages=find_packages(exclude=["tests", "tests.*"]),
+    url=URL,
+    license=LICENSE,
+    
+    # Package discovery
+    packages=find_packages(exclude=[
+        "tests",
+        "tests.*",
+        "docs",
+        "scripts",
+        "processing",
+        "benchmark",
+        "realtime_frames",
+    ]),
+    
+    # Package data (config files, etc.)
+    package_data={
+        "crustacean": [
+            "py.typed",  # PEP 561 marker for type hints
+        ],
+    },
+    
+    # Include non-Python files specified in MANIFEST.in
+    include_package_data=True,
+    
+    # Python version requirement
+    python_requires=">=3.9",
+    
+    # Dependencies
+    install_requires=install_requires,
+    
+    # Optional dependencies
+    extras_require={
+        "dev": dev_requires,
+        "jetson": jetson_requires,
+        "pi": pi_requires,
+        "all": dev_requires + jetson_requires + pi_requires,
+    },
+    
+    # Command-line entry points
+    entry_points={
+        "console_scripts": [
+            # Main pipeline commands
+            "crustacean-offline=scripts.run_offline:main",
+            "crustacean-realtime=scripts.run_realtime:main",
+            "crustacean-monitor=scripts.run_monitoring:main",
+        ],
+    },
+    
+    # PyPI classifiers
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Science/Research",
+        "Intended Audience :: Developers",
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
         "Topic :: Scientific/Engineering :: Image Recognition",
+        "Topic :: Multimedia :: Video :: Capture",
         "License :: OSI Approved :: MIT License",
+        "Operating System :: POSIX :: Linux",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "Environment :: GPU :: NVIDIA CUDA",
+        "Typing :: Typed",
     ],
-    python_requires=">=3.9",
-    install_requires=requirements,
-    extras_require={
-        "dev": [
-            "pytest>=7.4.0",
-            "pytest-cov>=4.1.0",
-            "black>=23.7.0",
-            "flake8>=6.1.0",
-            "mypy>=1.5.0",
-        ],
-        "jetson": [
-            "jetson-stats==4.3.2",
-        ],
+    
+    # Keywords for PyPI search
+    keywords=[
+        "computer-vision",
+        "deep-learning",
+        "object-detection",
+        "keypoint-detection",
+        "crustacean",
+        "marine-biology",
+        "edge-computing",
+        "jetson-nano",
+        "tflite",
+        "real-time",
+    ],
+    
+    # Project URLs
+    project_urls={
+        "Bug Reports": f"{URL}/issues",
+        "Source": URL,
+        "Documentation": f"{URL}#readme",
     },
-    entry_points={
-        "console_scripts": [
-            # Entry points will be added in Phase 4
-        ],
-    },
-    include_package_data=True,
+    
+    # Don't zip the package (needed for some resources)
     zip_safe=False,
 )

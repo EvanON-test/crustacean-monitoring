@@ -5,108 +5,33 @@ A real-time computer vision pipeline for detecting and analyzing crustaceans (cr
 ## Table of Contents
 
 - [Overview](#overview)
-- [System Architecture](#system-architecture)
 - [Features](#features)
-- [Hardware Requirements](#hardware-requirements)
-- [Software Requirements](#software-requirements)
 - [Installation](#installation)
+- [Quick Start](#quick-start)
 - [Usage](#usage)
-  - [Offline Pipeline (Video Files)](#offline-pipeline-video-files)
-  - [Real-time Pipeline (Camera Feed)](#real-time-pipeline-camera-feed)
-  - [Monitoring System](#monitoring-system)
-- [Pipeline Components](#pipeline-components)
-- [Output](#output)
+- [Configuration](#configuration)
 - [Project Structure](#project-structure)
-- [Performance Considerations](#performance-considerations)
+- [API Reference](#api-reference)
 - [Troubleshooting](#troubleshooting)
+- [Migration Guide](#migration-guide)
 
 ---
 
 ## Overview
 
-This system processes video streams to detect and analyze crustaceans through a sophisticated four-stage machine learning pipeline. It's designed for deployment on resource-constrained edge devices, with optimizations for real-time performance including multi-threading, model preloading, and efficient frame processing.
+This system processes video streams to detect and analyze crustaceans through a sophisticated four-stage machine learning pipeline:
+
+1. **Binary Classifier** - Detects crustacean presence in frames
+2. **Frame Selector** - Selects highest quality frames from segments
+3. **Object Detector** - Locates and classifies crustaceans (crab/lobster)
+4. **Keypoint Detector** - Identifies 7 anatomical landmarks
 
 **Key Capabilities:**
 - Real-time crustacean detection from live camera feeds
 - Offline batch processing of video files
-- Anatomical keypoint detection (7 points including eyes, carapace, tail segments)
 - Hardware performance monitoring (CPU, GPU, RAM, temperature)
 - Multi-threaded architecture for efficient processing
-
----
-
-## System Architecture
-
-### Pipeline Flow
-
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                        REAL-TIME MODE                                    │
-├─────────────────────────────────────────────────────────────────────────┤
-│  Camera Feed                                                             │
-│      ↓                                                                   │
-│  Motion Detection (15% threshold)                                        │
-│      ↓                                                                   │
-│  Frame Collection (30 frames)                                            │
-│      ↓                                                                   │
-│  ┌──────────────────────────────────────────────────┐                  │
-│  │ ANALYSIS THREAD                                   │                  │
-│  │  Binary Classifier → Frame Selector               │                  │
-│  │  (Detects presence) (Selects best quality frame) │                  │
-│  └──────────────────────────────────────────────────┘                  │
-│      ↓                                                                   │
-│  ┌──────────────────────────────────────────────────┐                  │
-│  │ OBJECT DETECTOR THREAD                            │                  │
-│  │  (Locates crustacean, crops ROI)                  │                  │
-│  └──────────────────────────────────────────────────┘                  │
-│      ↓                                                                   │
-│  ┌──────────────────────────────────────────────────┐                  │
-│  │ SAVE DETECTION THREAD                             │                  │
-│  │  Keypoint Detector → Save Results                 │                  │
-│  │  (7 anatomical points) (Image + CSV)              │                  │
-│  └──────────────────────────────────────────────────┘                  │
-└─────────────────────────────────────────────────────────────────────────┘
-
-┌─────────────────────────────────────────────────────────────────────────┐
-│                        OFFLINE MODE                                      │
-├─────────────────────────────────────────────────────────────────────────┤
-│  Video File                                                              │
-│      ↓                                                                   │
-│  Binary Classifier (Process all frames)                                  │
-│      ↓                                                                   │
-│  Frame Selector (Extract best frames from segments)                      │
-│      ↓                                                                   │
-│  Object Detector (Detect and crop ROI)                                   │
-│      ↓                                                                   │
-│  Keypoint Detector (Extract anatomical points)                           │
-│      ↓                                                                   │
-│  Results Output                                                          │
-└─────────────────────────────────────────────────────────────────────────┘
-```
-
-### Component Details
-
-1. **Binary Classifier**: MobileNetV3-Small based model (320x180 input) that detects crustacean presence in frames
-   - Uses rectangle smoothing and rectification for noise reduction
-   - Outputs binary signal indicating presence/absence
-
-2. **Frame Selector**: Dual CNN models (top/bottom quality assessors) that select the highest quality frames
-   - Processes continuous segments where crustaceans are detected
-   - Returns indices of optimal frames for further analysis
-
-3. **Object Detector**: YOLOv8-based detector (640x640 input) that locates and classifies crustaceans
-   - Supports 2 classes: Crab (0) and Lobster (1)
-   - Returns bounding box and confidence score
-   - Crops to fixed ROI: 539x561 pixels
-
-4. **Keypoint Detector**: CNN model that identifies 7 anatomical landmarks:
-   - Crab left edge (x1, y1)
-   - Crab right edge (x2, y2)
-   - Left eye (x3, y3)
-   - Right eye (x4, y4)
-   - Carapace end (x5, y5)
-   - Tail end (x6, y6)
-   - Last segment (x7, y7)
+- Configurable via YAML files
 
 ---
 
@@ -114,241 +39,266 @@ This system processes video streams to detect and analyze crustaceans through a 
 
 ### Processing Modes
 
-- **Offline Pipeline** (`pipeline.py`): Process pre-recorded video files
-- **Real-time Headless** (`realtime_pipeline.py`): Camera processing without display
-- **Real-time Demo** (`realtime_pipeline_demo.py`): Camera processing with live visualization
-- **Monitoring Mode** (`monitoring.py`): Hardware performance tracking during processing
+| Mode | Script | Description |
+|------|--------|-------------|
+| Offline | `scripts/run_offline.py` | Batch process pre-recorded videos |
+| Real-time | `scripts/run_realtime.py` | Live camera processing |
+| Monitoring | `scripts/run_monitoring.py` | Offline processing with hardware metrics |
 
 ### Technical Features
 
-- **Multi-threading**: Parallel processing for BC+FS, OD, and KD stages
+- **Multi-threading**: Parallel processing for analysis, detection, and saving
 - **Motion Detection**: Intelligent triggering to reduce computational load
-- **Model Preloading**: Persistent models in memory for real-time performance
-- **Hardware Monitoring**: CPU, GPU, RAM, temperature tracking
-- **Cooldown Mechanism**: Prevents duplicate detections (3s default)
-- **Frame Sampling**: Configurable processing intervals (default: every 30 frames)
-
----
-
-## Hardware Requirements
-
-### Primary Target Device
-- **NVIDIA Jetson Nano 2GB Developer Edition**
-  - JetPack 4.6.6
-  - CUDA 10.2.300
-  - cuDNN 8.2.1.32
-  - TensorRT 8.2.1.8
-
-### Camera
-- CSI camera (via nvarguscamerasrc GStreamer pipeline)
-- Recommended: 1280x720 @ 45fps
-
-### Storage
-- Minimum 8GB for models and results
-- Additional space for video processing and detection storage
-
-### Also Compatible With
-- Raspberry Pi (with reduced performance, CPU temp monitoring only)
-- Any Linux system with compatible libraries (monitoring features may vary)
-
----
-
-## Software Requirements
-
-### Core Dependencies
-
-```
-Python: 3.9.18
-TFLite Runtime: 2.13.0
-NumPy: 2.0.2
-OpenCV: 4.9.0 (with CUDA support recommended)
-Pillow: 10.0.0
-psutil: 7.0.0
-```
-
-### Jetson-Specific (Optional)
-```
-jetson-stats: 4.3.2  # For hardware metrics on Jetson devices
-```
-
-### Additional Requirements
-- GStreamer (for camera capture)
-- Git LFS (models are stored with LFS)
+- **Performance Profiling**: Built-in timing measurements for optimization
+- **Hardware Monitoring**: Platform-specific metrics (Jetson, Raspberry Pi, generic)
+- **Configurable**: YAML-based configuration with environment variable overrides
+- **Structured Logging**: Rotating file logs with configurable levels
 
 ---
 
 ## Installation
 
-### 1. Clone Repository
+### Requirements
+
+- Python 3.9+
+- TFLite Runtime 2.13.0+
+- OpenCV 4.9.0+
+- NumPy, Pillow, psutil, PyYAML
+
+### Standard Installation
 
 ```bash
+# Clone repository
 git clone https://github.com/EvanON-test/crustacean-monitoring.git
 cd crustacean-monitoring
+
+# Install dependencies
+pip install -r requirements.txt
+
+# For development (includes testing tools)
+pip install -r requirements-dev.txt
 ```
 
-### 2. Install Dependencies
+### Jetson Nano Installation
 
-**On Jetson Nano:**
 ```bash
 # Install system dependencies
 sudo apt-get update
 sudo apt-get install python3.9 python3-pip
 
 # Install Python packages
-pip3 install tflite-runtime==2.13.0 numpy==2.0.2 opencv-python==4.9.0 \
-             Pillow==10.0.0 psutil==7.0.0 jetson-stats==4.3.2
+pip install -r requirements.txt
+pip install -r requirements-jetson.txt  # Adds jetson-stats
 ```
 
-**On other systems:**
+### Editable Installation (Development)
+
 ```bash
-pip3 install tflite-runtime numpy opencv-python Pillow psutil
+pip install -e .
 ```
 
-### 3. Verify Models
+### Verify Installation
 
-Ensure all TFLite models are present:
 ```bash
-ls processing/binary_classifier/save/*.tflite
-ls processing/frame_selector/*.tflite
-ls processing/object_detector/*.tflite
-ls processing/keypoint_detector/models/*.tflite
+# Check imports work
+python -c "from crustacean.core import OfflinePipeline, RealtimePipeline; print('OK')"
+
+# Run tests
+pytest tests/ -v
+```
+
+---
+
+## Quick Start
+
+### Process Video Files
+
+```bash
+python scripts/run_offline.py --video-dir ./processing/video
+```
+
+### Run Real-time Detection
+
+```bash
+# Headless mode
+python scripts/run_realtime.py
+
+# With video display
+python scripts/run_realtime.py --display
+```
+
+### Monitor Hardware During Processing
+
+```bash
+python scripts/run_monitoring.py --video-dir ./processing/video --output metrics.csv
 ```
 
 ---
 
 ## Usage
 
-### Offline Pipeline (Video Files)
+### Offline Pipeline
 
-Process pre-recorded videos:
-
-```bash
-# Default usage (processes videos in processing/video/)
-sudo python3.9 pipeline.py
-
-# Specify custom video directory
-sudo python3.9 pipeline.py --data_path /path/to/videos
-
-# Process with multiple runs (for benchmarking)
-sudo python3.9 pipeline.py --data_path /path/to/videos --runs 4
-```
-
-**Output:**
-- Extracted frames saved to `processing/extracted_frames/`
-- Keypoint coordinates printed to console
-- Completed files logged to `CompletedFiles.txt`
-
-### Real-time Pipeline (Camera Feed)
-
-#### Headless Mode (No Display)
-
-For deployment scenarios without display:
+Process pre-recorded video files through the 4-stage pipeline:
 
 ```bash
-# Default: process every 30 frames
-sudo python3.9 realtime_pipeline.py
+# Basic usage
+python scripts/run_offline.py --video-dir ./videos
 
-# Custom frame interval
-sudo python3.9 realtime_pipeline.py --frames_interval 60
+# With custom config and profiling
+python scripts/run_offline.py \
+    --video-dir ./videos \
+    --config config/custom.yaml \
+    --profile \
+    --log-level DEBUG
+
+# Specify output directory
+python scripts/run_offline.py \
+    --video-dir ./videos \
+    --output-dir ./results
 ```
 
-#### Demo Mode (With Display)
+**Options:**
+- `--video-dir, -v` (required): Directory containing video files
+- `--config, -c`: Path to YAML config file
+- `--log-level, -l`: DEBUG, INFO, WARNING, ERROR
+- `--profile, -p`: Enable performance profiling
+- `--output-dir, -o`: Override output directory
 
-For development and visualization:
+### Real-time Pipeline
+
+Process live camera feed:
 
 ```bash
-# Default with live display
-sudo python3.9 realtime_pipeline_demo.py
+# Headless mode (no display)
+python scripts/run_realtime.py
 
-# Custom frame interval
-sudo python3.9 realtime_pipeline_demo.py --frames_interval 120
+# With video display and overlays
+python scripts/run_realtime.py --display
+
+# Custom camera type
+python scripts/run_realtime.py --camera-type usb
+
+# With profiling
+python scripts/run_realtime.py --profile --log-level DEBUG
 ```
+
+**Options:**
+- `--config, -c`: Path to YAML config file
+- `--display, -d`: Enable video display with overlays
+- `--log-level, -l`: DEBUG, INFO, WARNING, ERROR
+- `--profile, -p`: Enable performance profiling
+- `--output-dir, -o`: Override output directory
+- `--camera-type`: Override camera type (csi, usb)
 
 **Controls:**
-- Press `q` to quit
-- `Ctrl+C` for emergency stop
+- Press `q` to quit (display mode)
+- `Ctrl+C` for graceful shutdown
 
-**Output:**
-- Detections saved to `realtime_frames/YYYY-MM-DD_HH-MM-SS_Detection/`
-- Each detection folder contains:
-  - `*_screenshot.jpg`: Original frame
-  - `*_keypoints.csv`: Detected keypoint coordinates
+### Monitoring Pipeline
 
-### Monitoring System
-
-Track hardware performance during processing:
+Run offline processing with hardware monitoring:
 
 ```bash
-# Default monitoring
-sudo python3.9 monitoring.py
+# Basic monitoring
+python scripts/run_monitoring.py --video-dir ./videos
 
-# Custom configuration
-sudo python3.9 monitoring.py --data_path /path/to/videos --runs 8
+# Custom output and interval
+python scripts/run_monitoring.py \
+    --video-dir ./videos \
+    --output benchmark/metrics.csv \
+    --interval 1.0
+
+# With profiling
+python scripts/run_monitoring.py \
+    --video-dir ./videos \
+    --profile
 ```
 
-**Output:**
-- CSV files saved to `benchmark/`
-- Metrics logged every 2 seconds:
-  - Timestamp
-  - Model stage (BC, FS, OD, KD)
-  - CPU percentage
-  - CPU temperature
-  - GPU temperature (Jetson only)
-  - RAM percentage
-  - Power usage (when available)
+**Options:**
+- `--video-dir, -v` (required): Directory containing video files
+- `--config, -c`: Path to YAML config file
+- `--output, -o`: Metrics CSV output file
+- `--log-level, -l`: DEBUG, INFO, WARNING, ERROR
+- `--profile, -p`: Enable performance profiling
+- `--interval`: Monitoring interval in seconds (default: 2.0)
+
+### Programmatic Usage
+
+```python
+from crustacean.utils.config import Config
+from crustacean.core import OfflinePipeline, RealtimePipeline
+from crustacean.utils.profiling import PerformanceProfiler
+
+# Load configuration
+config = Config.load('config/default_config.yaml')
+
+# Create profiler (optional)
+profiler = PerformanceProfiler("my_pipeline")
+
+# Run offline pipeline
+pipeline = OfflinePipeline(config, video_dir='./videos', profiler=profiler)
+pipeline.run()
+
+# Or run real-time pipeline
+pipeline = RealtimePipeline(config, display_mode=True, profiler=profiler)
+pipeline.run()
+```
 
 ---
 
-## Pipeline Components
+## Configuration
 
-### File Structure
+Configuration is managed via YAML files. See `config/default_config.yaml` for all options.
 
-**Main Scripts:**
-- `pipeline.py` - Offline video processing
-- `realtime_pipeline.py` - Real-time headless processing
-- `realtime_pipeline_demo.py` - Real-time with visualization
-- `monitoring.py` - Hardware monitoring system
+### Key Configuration Sections
 
-**Processing Utilities:**
-- `processing/binary_classifier_util.py` - Crustacean presence detection
-- `processing/frame_selector_util.py` - Quality-based frame selection
-- `processing/object_detector_util.py` - Object detection and ROI extraction
-- `processing/keypoint_detector_util.py` - Anatomical landmark detection
+```yaml
+# Model paths and parameters
+models:
+  binary_classifier:
+    path: "processing/binary_classifier/save/DS1_A_200_128.tflite"
+    input_width: 320
+    input_height: 180
+  
+  object_detector:
+    path: "processing/object_detector/best-expanded.tflite"
+    confidence_threshold: 0.75
 
-**Models:**
-- Binary Classifier: `processing/binary_classifier/save/DS1_A_200_128.tflite`
-- Frame Selectors: 
-  - `processing/frame_selector/top_con_norm_bal_mse_1000.tflite`
-  - `processing/frame_selector/bottom_con_norm_bal_mse_1000.tflite`
-- Object Detector: `processing/object_detector/best-expanded.tflite`
-- Keypoint Detector: `processing/keypoint_detector/models/32_4000_197.07_14.11.04.512680.tflite`
+# Camera settings
+camera:
+  type: "csi"  # csi, usb
+  width: 1280
+  height: 720
+  framerate: 45
 
----
+# Real-time processing
+realtime:
+  motion_detection_threshold: 15
+  detection_cooldown: 3
+  frames_to_collect: 30
+  process_interval: 30
 
-## Output
+# Output directories
+output:
+  detections_dir: "realtime_frames"
+  extracted_frames_dir: "processing/extracted_frames"
 
-### Detection Directory Structure
-
+# Logging
+logging:
+  level: "INFO"
+  console: true
+  file: true
 ```
-realtime_frames/
-└── 2024-10-15_14-30-45_Detection/
-    ├── 2024-10-15_14-30-45_screenshot.jpg
-    └── 2024-10-15_14-30-45_keypoints.csv
-```
 
-### Keypoint CSV Format
+### Environment Variable Overrides
 
-```csv
-crab_left_x1,crab_left_y1,crab_right_x2,crab_right_y2,left_eye_x3,left_eye_y3,right_eye_x4,right_eye_y4,carapace_end_x5,carapace_end_y5,tail_end_x6,tail_end_y6,last_segment_x7,last_segment_y7
-123.4,234.5,345.6,456.7,178.9,200.1,312.3,198.7,250.0,300.0,280.0,450.0,290.0,520.0
-```
+Override any config value with environment variables:
 
-### Benchmark CSV Format
-
-```csv
-timestamp,model_stage,cpu_percent,cpu_temp,gpu_percent,gpu_temp,ram_percent,power_used
-08-10-2024_13-30-31,Binary Classifier,45.2,55.0,0.0,48.0,62.3,N/A
-08-10-2024_13-30-33,Frame Selector,52.1,56.5,0.0,49.2,63.8,N/A
+```bash
+export CRUSTACEAN_LOGGING_LEVEL=DEBUG
+export CRUSTACEAN_CAMERA_TYPE=usb
+python scripts/run_realtime.py
 ```
 
 ---
@@ -357,82 +307,164 @@ timestamp,model_stage,cpu_percent,cpu_temp,gpu_percent,gpu_temp,ram_percent,powe
 
 ```
 crustacean-monitoring/
-├── pipeline.py                      # Main offline pipeline
-├── realtime_pipeline.py            # Real-time headless
-├── realtime_pipeline_demo.py       # Real-time with display
-├── monitoring.py                   # Hardware monitoring
-├── CompletedFiles.txt              # Processed video log
-├── processing/
+├── crustacean/                    # Main package
+│   ├── core/                      # Pipeline implementations
+│   │   ├── pipeline.py           # Base Pipeline class
+│   │   ├── offline_pipeline.py   # Batch video processing
+│   │   └── realtime_pipeline.py  # Live camera processing
+│   ├── models/                    # ML model interfaces
+│   │   ├── base_model.py         # Abstract base class
+│   │   ├── binary_classifier.py
+│   │   ├── frame_selector.py
+│   │   ├── object_detector.py
+│   │   └── keypoint_detector.py
+│   ├── monitoring/                # Hardware metrics
+│   │   ├── hardware_detector.py  # Platform detection
+│   │   ├── base_monitor.py       # Abstract monitor
+│   │   ├── jetson_monitor.py     # Jetson-specific
+│   │   ├── pi_monitor.py         # Raspberry Pi
+│   │   └── generic_monitor.py    # Cross-platform
+│   ├── camera/                    # Camera interfaces
+│   │   ├── base_camera.py
+│   │   ├── gstreamer_camera.py   # CSI cameras
+│   │   └── opencv_camera.py      # USB cameras
+│   ├── threads/                   # Thread management
+│   │   ├── analysis_thread.py    # BC + FS processing
+│   │   ├── detection_thread.py   # Object detection
+│   │   └── save_thread.py        # Save detections
+│   └── utils/                     # Utilities
+│       ├── config.py             # Configuration management
+│       ├── logging_setup.py      # Logging configuration
+│       ├── exceptions.py         # Custom exceptions
+│       └── profiling.py          # Performance profiling
+├── config/
+│   └── default_config.yaml       # Default configuration
+├── scripts/                       # Entry point scripts
+│   ├── run_offline.py
+│   ├── run_realtime.py
+│   └── run_monitoring.py
+├── tests/                         # Test suite
+│   ├── unit/
+│   └── integration/
+├── processing/                    # Model files
 │   ├── binary_classifier/
-│   │   ├── save/                   # TFLite models
-│   │   ├── bc_tensorflow/          # Training artifacts
-│   │   ├── config/                 # Model configuration
-│   │   └── model/                  # Architecture definitions
 │   ├── frame_selector/
-│   │   ├── top_con_norm_bal_mse_1000.tflite
-│   │   └── bottom_con_norm_bal_mse_1000.tflite
 │   ├── object_detector/
-│   │   ├── best-expanded.tflite    # Main detector
-│   │   ├── best.tflite             # Alternative
-│   │   ├── nms.py                  # Non-max suppression
-│   │   └── od_pytorch/             # PyTorch/ONNX versions
-│   ├── keypoint_detector/
-│   │   └── models/                 # Current and archived models
-│   ├── video/                      # Input videos
-│   ├── extracted_frames/           # Temporary frame storage
-│   ├── binary_classifier_util.py
-│   ├── frame_selector_util.py
-│   ├── object_detector_util.py
-│   └── keypoint_detector_util.py
-├── realtime_frames/                # Real-time detection output
-├── benchmark/                      # Monitoring results
-└── README.md
+│   └── keypoint_detector/
+├── requirements.txt
+├── requirements-dev.txt
+├── requirements-jetson.txt
+└── setup.py
 ```
 
 ---
 
-## Performance Considerations
+## API Reference
 
-### Optimization Strategies
+### Core Classes
 
-1. **Frame Interval**: Adjust `--frames_interval` to balance detection rate vs. performance
-   - Lower values (30): More frequent processing, higher CPU load
-   - Higher values (120-240): Reduced load, might miss fast-moving subjects
+#### `Pipeline` (Abstract Base)
+```python
+from crustacean.core import Pipeline
 
-2. **Motion Detection Threshold**: Current 15% - adjust in code if needed
-   - Higher: Fewer triggers, less processing
-   - Lower: More sensitive, more processing
+# Methods
+pipeline.load_models(preload=False)  # Load all models
+pipeline.cleanup()                    # Release resources
+pipeline.run()                        # Execute pipeline (abstract)
+```
 
-3. **Cooldown Period**: 3-second default prevents duplicate detections
-   - Adjust based on deployment scenario
+#### `OfflinePipeline`
+```python
+from crustacean.core import OfflinePipeline
 
-4. **Model Preloading**: Real-time modes keep models in memory
-   - Faster inference but higher baseline RAM usage
+pipeline = OfflinePipeline(
+    config=config,
+    video_dir='./videos',
+    profiler=None  # Optional PerformanceProfiler
+)
+pipeline.run()
+```
 
-### Expected Performance (Jetson Nano 2GB)
+#### `RealtimePipeline`
+```python
+from crustacean.core import RealtimePipeline
 
-- **Real-time FPS**: ~30-45 fps camera capture
-- **Processing Latency**: 
-  - Binary Classifier: ~1-2s per 30 frames
-  - Frame Selector: ~0.5-1s
-  - Object Detector: ~0.3-0.5s per frame
-  - Keypoint Detector: ~0.2-0.4s per frame
-- **Total per detection**: ~3-5 seconds from motion to saved result
+pipeline = RealtimePipeline(
+    config=config,
+    display_mode=False,
+    profiler=None
+)
+pipeline.run()
+```
+
+### Model Classes
+
+All models extend `BaseModel` with consistent interface:
+
+```python
+from crustacean.models import BinaryClassifier, ObjectDetector
+
+model = BinaryClassifier(config, preload=True)
+model.load()           # Load model into memory
+result = model.predict(input_data)
+model.unload()         # Release resources
+
+# Context manager support
+with ObjectDetector(config) as od:
+    roi, confidence, class_idx = od.predict(frame)
+```
+
+### Monitoring
+
+```python
+from crustacean.monitoring import create_monitor, detect_hardware
+
+# Auto-detect platform
+hardware = detect_hardware()  # 'jetson', 'raspberry_pi', or 'generic'
+
+# Create appropriate monitor
+monitor = create_monitor(config, 'metrics.csv')
+monitor.start()
+# ... run pipeline ...
+monitor.stop()
+monitor.join()
+```
+
+### Profiling
+
+```python
+from crustacean.utils.profiling import PerformanceProfiler
+
+profiler = PerformanceProfiler("my_profiler")
+
+with profiler.profile_section("preprocessing"):
+    preprocess_data()
+
+with profiler.profile_section("inference"):
+    run_model()
+
+profiler.print_summary()
+```
 
 ---
 
 ## Troubleshooting
 
-### Common Issues
+### Camera Issues
 
 **Camera not opening:**
 ```bash
-# Check GStreamer pipeline
+# Check GStreamer pipeline (Jetson)
 gst-launch-1.0 nvarguscamerasrc ! nvvidconv ! 'video/x-raw, format=BGRx' ! videoconvert ! xvimagesink
 
-# Verify camera is detected
-ls /dev/video0
+# Check USB camera
+ls /dev/video*
+
+# Try USB camera type
+python scripts/run_realtime.py --camera-type usb
 ```
+
+### Model Issues
 
 **Model loading errors:**
 ```bash
@@ -441,41 +473,79 @@ git lfs pull
 
 # Check file sizes (should be MB, not KB)
 ls -lh processing/*/models/*.tflite
+ls -lh processing/*/*.tflite
 ```
 
-**Permission errors:**
+### Permission Issues
+
 ```bash
-# Run with sudo for hardware access
-sudo python3.9 realtime_pipeline.py
+# Run with sudo for hardware access (Jetson)
+sudo python scripts/run_realtime.py
 ```
 
-**Out of memory:**
-- Increase frame interval
-- Reduce motion detection sensitivity
-- Process fewer concurrent threads
+### Memory Issues
 
-**jtop not available:**
+- Increase `process_interval` in config (process fewer frames)
+- Reduce `frames_to_collect` 
+- Use offline mode instead of real-time
+
+### Monitoring Issues
+
+**jtop not available (Jetson):**
 ```bash
-# Install jetson-stats
-sudo -H pip3 install -U jetson-stats
+sudo -H pip install -U jetson-stats
 sudo systemctl restart jtop.service
 ```
 
-### Debug Mode
+### Logging
 
-Add verbose logging by modifying the util files or check console output during execution. All threads print detailed status messages.
+Enable debug logging for detailed output:
+```bash
+python scripts/run_offline.py --video-dir ./videos --log-level DEBUG
+```
+
+Check log files in `logs/crustacean_monitoring.log`
 
 ---
 
-## Contributing
+## Migration Guide
 
-This is an active research project. Future improvements:
-- [ ] Consolidate `realtime_pipeline.py` and `realtime_pipeline_demo.py` (code duplication)
-- [ ] Implement logging system instead of print statements
-- [ ] Add TensorRT support for improved inference speed
-- [ ] Support for additional edge devices
-- [ ] Web-based monitoring dashboard
-- [ ] Automated species classification refinement
+### From Legacy Scripts
+
+The codebase has been refactored from standalone scripts to a proper Python package.
+
+| Old | New |
+|-----|-----|
+| `pipeline.py` | `scripts/run_offline.py` |
+| `realtime_pipeline.py` | `scripts/run_realtime.py` |
+| `realtime_pipeline_demo.py` | `scripts/run_realtime.py --display` |
+| `monitoring.py` | `scripts/run_monitoring.py` |
+
+### Key Changes
+
+1. **Configuration**: Now uses YAML files instead of hardcoded values
+2. **Logging**: Structured logging replaces print statements
+3. **Error Handling**: Custom exception hierarchy
+4. **Package Structure**: Proper Python package with imports
+5. **Testing**: Comprehensive test suite included
+
+### Updating Existing Code
+
+```python
+# Old way
+from processing.binary_classifier_util import binary_classifier
+signal = binary_classifier(video_path)
+
+# New way
+from crustacean.models import BinaryClassifier
+from crustacean.utils.config import Config
+
+config = Config.load()
+bc = BinaryClassifier(config)
+bc.load()
+signal = bc.predict(video)
+bc.unload()
+```
 
 ---
 
