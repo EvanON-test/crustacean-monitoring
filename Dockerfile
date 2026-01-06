@@ -42,8 +42,13 @@ COPY requirements.txt requirements-jetson.txt ./
 
 # Install Python dependencies
 # Note: OpenCV is already installed in the base image with CUDA support
-RUN pip3 install --no-cache-dir -r requirements.txt \
-    && pip3 install --no-cache-dir -r requirements-jetson.txt
+# Installing one-by-one for better error visibility
+RUN pip3 install --no-cache-dir --verbose "numpy>=1.19.0,<2.0.0"
+RUN pip3 install --no-cache-dir --verbose "tflite-runtime>=2.5.0,<2.11.0"
+RUN pip3 install --no-cache-dir --verbose "Pillow>=8.0.0,<10.0.0"
+RUN pip3 install --no-cache-dir --verbose "PyYAML==6.0.1"
+RUN pip3 install --no-cache-dir --verbose "psutil>=5.8.0"
+RUN pip3 install --no-cache-dir --verbose -r requirements-jetson.txt
 
 # Copy the application code
 COPY . .
