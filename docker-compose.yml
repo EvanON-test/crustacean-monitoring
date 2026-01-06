@@ -9,7 +9,7 @@
 #
 # For CSI camera, you may need to run with sudo
 
-version: "3.8"
+# version: "3.8"
 
 services:
   # Base service with common configuration
