@@ -13,6 +13,31 @@ The codebase has been refactored from standalone scripts with duplicated code in
 - Comprehensive test suite
 - Performance profiling tools
 - Hardware monitoring abstraction
+- **Docker support for isolated, reproducible deployments**
+
+## Deployment Options
+
+### Docker (Recommended for Jetson)
+
+Docker is now the recommended deployment method, especially when running multiple CV projects:
+
+```bash
+# Build and run
+docker-compose build
+docker-compose run realtime   # Live camera
+docker-compose run offline    # Batch processing
+```
+
+See [docs/DOCKER.md](DOCKER.md) for complete Docker documentation.
+
+### Native Installation
+
+For development or when Docker isn't available:
+
+```bash
+pip install -e .
+python scripts/run_realtime.py
+```
 
 ## Script Mapping
 

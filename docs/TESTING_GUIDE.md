@@ -2,16 +2,19 @@
 
 A comprehensive, step-by-step guide for manually testing the refactored Crustacean Monitoring System on Jetson Nano hardware. This guide covers all aspects of Task 21 from the implementation plan.
 
+> **Note:** This guide covers both Docker and native installation testing. Docker is the recommended approach for production deployments.
+
 ---
 
 ## Table of Contents
 
 1. [Prerequisites & Setup](#prerequisites--setup)
-2. [Task 21.1: Run Full Test Suite](#task-211-run-full-test-suite)
-3. [Task 21.2: Hardware Testing](#task-212-test-on-jetson-nano-hardware)
-4. [Task 21.3: Performance Benchmarking](#task-213-performance-benchmarking)
-5. [Troubleshooting Guide](#troubleshooting-guide)
-6. [Results Template](#results-template)
+2. [Docker Testing (Recommended)](#docker-testing-recommended)
+3. [Task 21.1: Run Full Test Suite](#task-211-run-full-test-suite)
+4. [Task 21.2: Hardware Testing](#task-212-test-on-jetson-nano-hardware)
+5. [Task 21.3: Performance Benchmarking](#task-213-performance-benchmarking)
+6. [Troubleshooting Guide](#troubleshooting-guide)
+7. [Results Template](#results-template)
 
 ---
 
@@ -71,7 +74,71 @@ sudo tegrastats
 # Check if jtop is available
 jtop --version
 # If not installed: sudo -H pip3 install jetson-stats
+
+# Check Docker (for containerized deployment)
+docker --version
+docker-compose --version
 ```
+
+---
+
+## Docker Testing (Recommended)
+
+If using Docker deployment, testing is simplified:
+
+### Build and Verify
+
+```bash
+cd ~/crustacean-monitoring
+
+# Build the image
+docker-compose build
+
+# Verify image was created
+docker images | grep crustacean
+```
+
+### Run Tests in Container
+
+```bash
+# Interactive shell for testing
+docker-compose run shell
+
+# Inside container, run tests
+python -m pytest tests/ -v
+python -m pytest tests/ --cov=crustacean
+
+# Exit container
+exit
+```
+
+### Test Pipelines via Docker
+
+```bash
+# Test offline pipeline
+docker-compose run offline
+
+# Test real-time (with camera)
+docker-compose run realtime
+
+# Test monitoring
+docker-compose run monitor
+```
+
+### Docker-Specific Checks
+
+```bash
+# Verify GPU access in container
+docker-compose run shell nvidia-smi
+
+# Verify camera access
+docker-compose run shell ls -la /dev/video*
+
+# Check logs
+docker-compose logs
+```
+
+If using native installation instead, continue with the sections below.
 
 ---
 

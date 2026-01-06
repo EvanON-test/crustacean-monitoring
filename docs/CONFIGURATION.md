@@ -6,6 +6,10 @@ This document describes all configuration options for the Crustacean Monitoring 
 
 The default configuration file is located at `config/default_config.yaml`. You can create custom configuration files and specify them with the `--config` flag.
 
+### Docker Note
+
+When using Docker, the `config/` directory is mounted as a volume, so you can edit configuration files without rebuilding the image. Changes take effect on the next container run.
+
 ## Configuration Sections
 
 ### Models

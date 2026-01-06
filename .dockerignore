@@ -1,0 +1,59 @@
+# Git
+.git
+.gitattributes
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info
+.eggs
+dist
+build
+*.egg
+.pytest_cache
+.mypy_cache
+.coverage
+htmlcov
+
+# Virtual environments
+venv
+env
+.env
+anaconda3
+
+# macOS
+.DS_Store
+
+# Logs (will be mounted as volume)
+logs/*.log
+
+# Output directories (will be mounted as volumes)
+realtime_frames/*
+processing/extracted_frames/*
+
+# Large files that should be pulled via git-lfs inside container
+# Uncomment if you want to pull models inside container instead
+# processing/**/*.tflite
+
+# Documentation (not needed in container)
+docs
+*.md
+!README.md
+
+# Tests (uncomment if you want tests in container)
+# tests
+
+# Legacy code (not needed for running)
+legacy_code
+
+# Kiro/IDE config
+.kiro

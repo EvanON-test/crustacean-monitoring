@@ -4,13 +4,20 @@ Setup script for Crustacean Monitoring System.
 This setup.py enables installation of the crustacean package and provides
 command-line entry points for running the pipelines.
 
-Installation:
+Installation Options:
+
+1. Docker (Recommended for Jetson):
+    docker-compose build
+    docker-compose run realtime
+    docker-compose run offline
+
+2. Native Installation:
     pip install -e .                    # Development install
     pip install -e ".[dev]"             # With development dependencies
     pip install -e ".[jetson]"          # With Jetson-specific dependencies
     pip install -e ".[dev,jetson]"      # With all extras
 
-After installation, you can run:
+After native installation, you can run:
     crustacean-offline --video-dir ./videos
     crustacean-realtime --display
     crustacean-monitor --video-dir ./videos --output metrics.csv

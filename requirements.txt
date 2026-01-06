@@ -15,9 +15,10 @@ numpy==2.0.2
 
 # OpenCV for image/video processing and camera capture
 # IMPORTANT: On Jetson Nano, use CUDA-enabled system OpenCV for best performance
-# Install via: sudo apt-get install python3-opencv
-# Do NOT use opencv-python from pip on Jetson - it's CPU-only and much slower
-opencv-python==4.9.0  # For non-Jetson platforms
+# - Docker: Pre-installed in L4T base image (do not install via pip)
+# - Native Jetson: sudo apt-get install python3-opencv
+# - Other platforms: Uncomment the line below
+# opencv-python==4.9.0
 
 # Pillow for image manipulation (used in object detector)
 Pillow==10.0.0

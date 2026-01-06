@@ -1,0 +1,72 @@
+# Crustacean Monitoring System - Docker Compose Configuration
+# 
+# Usage:
+#   docker-compose build                    # Build the image
+#   docker-compose run realtime             # Run real-time pipeline
+#   docker-compose run offline              # Run offline pipeline
+#   docker-compose run monitor              # Run monitoring
+#   docker-compose run shell                # Interactive shell
+#
+# For CSI camera, you may need to run with sudo
+
+version: "3.8"
+
+services:
+  # Base service with common configuration
+  crustacean-base: &base
+    build:
+      context: .
+      dockerfile: Dockerfile
+    runtime: nvidia
+    environment:
+      - DISPLAY=${DISPLAY:-:0}
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=all
+    volumes:
+      # Mount output directories for persistence
+      - ./logs:/app/logs
+      - ./realtime_frames:/app/realtime_frames
+      - ./processing/extracted_frames:/app/processing/extracted_frames
+      # Mount config for easy editing without rebuild
+      - ./config:/app/config:ro
+      # Mount models (read-only)
+      - ./processing/binary_classifier:/app/processing/binary_classifier:ro
+      - ./processing/frame_selector:/app/processing/frame_selector:ro
+      - ./processing/object_detector:/app/processing/object_detector:ro
+      - ./processing/keypoint_detector:/app/processing/keypoint_detector:ro
+      # Mount videos for offline processing
+      - ./processing/video:/app/processing/video:ro
+      # X11 socket for display (optional)
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+    devices:
+      # USB camera
+      - /dev/video0:/dev/video0
+    # For CSI camera access (nvarguscamerasrc)
+    privileged: true
+    network_mode: host
+
+  # Real-time pipeline with camera
+  realtime:
+    <<: *base
+    command: ["crustacean-realtime", "--display"]
+    stdin_open: true
+    tty: true
+
+  # Offline video processing
+  offline:
+    <<: *base
+    command: ["crustacean-offline", "--video-dir", "/app/processing/video"]
+    privileged: false  # No camera needed
+
+  # Monitoring/benchmarking
+  monitor:
+    <<: *base
+    command: ["crustacean-monitor", "--video-dir", "/app/processing/video"]
+    privileged: false
+
+  # Interactive shell for debugging
+  shell:
+    <<: *base
+    command: ["/bin/bash"]
+    stdin_open: true
+    tty: true

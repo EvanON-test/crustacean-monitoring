@@ -10,6 +10,7 @@ A real-time computer vision pipeline for detecting and analyzing crustaceans (cr
 - [Quick Start](#quick-start)
 - [Usage](#usage)
 - [Configuration](#configuration)
+- [Docker Deployment](#docker-deployment)
 - [Project Structure](#project-structure)
 - [API Reference](#api-reference)
 - [Troubleshooting](#troubleshooting)
@@ -62,10 +63,36 @@ This system processes video streams to detect and analyze crustaceans through a 
 
 - Python 3.9+
 - TFLite Runtime 2.13.0+
-- OpenCV 4.9.0+
+- OpenCV 4.9.0+ (CUDA-enabled on Jetson)
 - NumPy, Pillow, psutil, PyYAML
 
-### Standard Installation
+### Option 1: Docker (Recommended for Jetson)
+
+Docker provides full isolation, making it easy to run multiple CV projects on the same Jetson without dependency conflicts.
+
+```bash
+# Clone repository
+git clone https://github.com/EvanON-test/crustacean-monitoring.git
+cd crustacean-monitoring
+
+# Build the Docker image
+docker-compose build
+
+# Run real-time pipeline (with camera)
+docker-compose run realtime
+
+# Run offline processing
+docker-compose run offline
+
+# Interactive shell for debugging
+docker-compose run shell
+```
+
+See [docs/DOCKER.md](docs/DOCKER.md) for detailed Docker usage.
+
+### Option 2: Native Installation
+
+#### Standard Installation
 
 ```bash
 # Clone repository
@@ -79,19 +106,19 @@ pip install -r requirements.txt
 pip install -r requirements-dev.txt
 ```
 
-### Jetson Nano Installation
+#### Jetson Nano Installation
 
 ```bash
-# Install system dependencies
+# Install system dependencies (CUDA OpenCV is critical for performance)
 sudo apt-get update
-sudo apt-get install python3.9 python3-pip
+sudo apt-get install python3.9 python3-pip python3-opencv
 
 # Install Python packages
 pip install -r requirements.txt
 pip install -r requirements-jetson.txt  # Adds jetson-stats
 ```
 
-### Editable Installation (Development)
+#### Editable Installation (Development)
 
 ```bash
 pip install -e .
@@ -111,25 +138,32 @@ pytest tests/ -v
 
 ## Quick Start
 
-### Process Video Files
+### Using Docker (Recommended)
 
 ```bash
-python scripts/run_offline.py --video-dir ./processing/video
+# Process video files
+docker-compose run offline
+
+# Real-time detection with camera
+docker-compose run realtime
+
+# Monitor hardware during processing
+docker-compose run monitor
 ```
 
-### Run Real-time Detection
+### Using Native Installation
 
 ```bash
-# Headless mode
+# Process video files
+python scripts/run_offline.py --video-dir ./processing/video
+
+# Real-time detection (headless)
 python scripts/run_realtime.py
 
-# With video display
+# Real-time with video display
 python scripts/run_realtime.py --display
-```
 
-### Monitor Hardware During Processing
-
-```bash
+# Monitor hardware during processing
 python scripts/run_monitoring.py --video-dir ./processing/video --output metrics.csv
 ```
 
@@ -303,6 +337,63 @@ python scripts/run_realtime.py
 
 ---
 
+## Docker Deployment
+
+Docker is the recommended deployment method for Jetson, especially when running multiple CV projects.
+
+### Why Docker?
+
+- Full dependency isolation between projects
+- Pre-configured CUDA OpenCV in base image
+- Easy deployment and reproducibility
+- No conflicts with system Python packages
+
+### Quick Start
+
+```bash
+# Build once
+docker-compose build
+
+# Run services
+docker-compose run realtime   # Live camera processing
+docker-compose run offline    # Batch video processing
+docker-compose run monitor    # With hardware metrics
+docker-compose run shell      # Debug shell
+```
+
+### Volume Mounts
+
+Output directories are mounted for persistence:
+- `./logs` → Container logs
+- `./realtime_frames` → Detection results  
+- `./config` → Configuration (editable without rebuild)
+- `./processing/video` → Input videos
+
+### Camera Access
+
+```bash
+# CSI camera (requires privileged mode, enabled by default)
+docker-compose run realtime
+
+# USB camera - ensure device exists
+ls /dev/video0
+docker-compose run realtime
+```
+
+### Display Output
+
+```bash
+# Allow X11 connections first
+xhost +local:docker
+
+# Then run with display
+docker-compose run realtime
+```
+
+See [docs/DOCKER.md](docs/DOCKER.md) for complete Docker documentation.
+
+---
+
 ## Project Structure
 
 ```
@@ -354,7 +445,10 @@ crustacean-monitoring/
 ├── requirements.txt
 ├── requirements-dev.txt
 ├── requirements-jetson.txt
-└── setup.py
+├── setup.py
+├── Dockerfile                 # Docker image definition
+├── docker-compose.yml         # Docker services configuration
+└── .dockerignore              # Files excluded from Docker build
 ```
 
 ---
